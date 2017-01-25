@@ -1,0 +1,4870 @@
+﻿
+
+ul {
+	list-style: none;
+	}
+	
+	
+
+/*PÁGINA HOME.MASTER*/ 
+/* marcação da página */
+#geral
+{    
+    width:100%;
+    height:100%;    
+    margin: 0 auto;
+    text-align: left; 
+    /*background-color: #EDEDED;*/
+    background-color: White;
+}
+	
+	
+/*PÁGINA HOME.MASTER*/
+/* marcação do barra governo no topo*/
+#barragov {
+	background-color: #fc0;
+	height: 21px;
+	overflow: hidden;
+	}
+	
+	
+	
+	
+/* HEADER NOVO */
+.SubItemHover:hover 
+{
+    text-decoration:underline;    
+}
+
+#header {		
+    width:100%;    
+	height:115px;	
+	background-color:#161f27;
+	float: left;
+	}
+	
+#headerCentro {		
+    width:1024px;    
+	height:100px;	
+	background-color:#161f27;
+	margin:0 auto 0 auto;	
+	}
+	
+	
+#headerEsq {		
+    width:351px;    
+	height:100px;	
+	background-color:#161f27;
+    float:left;
+}
+
+#headerLogotipo {
+    width:351px;
+    height:60px;
+    /*background-image: url('../imagem/Logotipo_Default_Novo.jpg'); 
+    background-repeat:no-repeat;*/    
+    float:left;    
+    margin:30px 0 0 0px;
+    /*position: relative;
+    top: 0px;
+    left: -3px;
+    clear:both;*/
+}
+
+#headerImg {
+    width:475px;
+    height:100px;
+    /*background-image: url("../imagem/headerImg.jpg");*/ 
+    background-repeat:no-repeat;
+    background-position:right;
+    position:relative;
+    float:left;
+    /*Mudança da margin left "30px" para "valor abaixo" 19/12/11*/
+    margin: 0 0 0 0;
+}
+
+#headerImgAcervo {
+    width:475px;
+    height:100px;
+    /*background-image: url("../imagem/imgHeaderOutrasAreas.png");*/
+    /*background-image: url("../imagem/ImgHeaderEsta.png");*/ 
+    background-repeat:no-repeat;
+    background-position:right;
+    position:relative;
+    float:left;
+    /*Mudança da margin left "30px" para "valor abaixo" 19/12/11*/
+    margin: 0 0 0 0;
+}
+
+#headerImgOutrasAreas {
+    width:475px;
+    height:100px;
+    /*background-image: url("../imagem/ImgHeaderEsta.png");*/
+    /*background-image: url("../imagem/imgHeaderOutrasAreas.png");*/
+    background-repeat:no-repeat;    
+    position:relative;
+    float:left;
+    /*Mudança da margin left "30px" para "valor abaixo" 19/12/11*/
+    margin: 0 0 0 0;
+}
+
+#headerImgGeo {
+    width:475px;
+    height:100px;
+    /*background-image: url("../imagem/ImgHeaderGeo.png");*/
+    /*background-image: url("../imagem/imgHeaderOutrasAreas.png");*/
+    background-repeat:no-repeat;    
+    position:relative;
+    float:left;
+    /*Mudança da margin left "30px" para "valor abaixo" 19/12/11*/
+    margin: 0 0 0 0;
+}
+
+#headerDir 
+{
+   width:190px; 
+   height:100px; 
+   float:left; 
+   background-color:;
+   margin-left:2px;
+}
+
+	
+#headerIdiomas {		
+    width:120px;    
+	background-color:#161f27;
+	float:left;
+	margin-left:10px;
+	background-color:;
+}
+
+.BtPortugues
+{
+    
+    /*background-image: url("../imagem/IdiomaPor.jpg");*/
+     background-repeat: no-repeat;
+    font-size:9px;
+    font-family:Verdana;        
+    float: right;   
+    margin:5px 9px 0 0px;  
+}
+
+.textoIdiomas
+{
+    float:right;
+    margin-top:6px;
+    padding-right:2px;
+}
+
+#BtnEspaco
+{
+    float:right;
+    Height:12px;
+    width:22px;
+}
+
+.BtEnglish
+{
+    
+    /*background-image: url("../imagem/IdiomaEng.jpg");*/
+    background-repeat: no-repeat;
+    font-size: 9px;
+    font-family: Verdana;
+    float: right;
+    margin: 5px 9px 0 0px;        
+}
+
+.BtEspanol
+{   
+     
+    /*background-image: url("../imagem/IdiomaEsp.jpg");*/
+    background-repeat: no-repeat;
+    font-size:9px;
+    font-family:Verdana;
+    float: right;   
+    margin:5px 9px 0 0;     
+}
+
+	
+	
+#BtPortugues
+{
+    background-color:#161f27;  
+    float: right;   
+    margin:0 8px 0 0px;   
+    text-align: center;
+    color:White;
+    font-size:8px;
+    font-family:Verdana;
+    font-weight:bolder;    
+}
+
+
+#BtPortugues a
+{
+    color:White;
+    font-size:8px;
+    font-family:Verdana;
+    font-weight:bolder;
+}
+
+#BtPortugues a:hover
+{
+    font-family: Verdana;    
+    color: #ffb400;
+    text-decoration:none;    
+    font-weight:bolder;
+}
+
+
+#BtEnglish
+{
+   background-color:#161f27;    
+   float: right;    
+   margin:0 8px 0 0px;
+   position: relative;  
+   text-align: center;
+   color:White;
+   font-size:8px;
+   font-family:Verdana;
+   font-weight:bolder;  
+}
+
+#BtEnglish a
+{
+   color:White;
+   font-size:8px;
+   font-family:Verdana;
+   font-weight:bolder;
+}
+
+#BtEnglish a:hover
+{
+   font-family: Verdana;    
+    color: #ffb400;
+    text-decoration:none;    
+    font-weight:bolder;
+}
+
+
+
+
+#BtEspanol
+{
+    background-color:#161f27;      
+    float: right;  
+    margin:0 8px 0 0;
+    position: relative;  
+    text-align: center;
+    color:White;
+    font-size:8px;
+    font-family:Verdana;
+    font-weight:bolder;   
+}
+
+#BtEspanol a
+{
+   color:White;
+   font-size:8px;
+   font-family:Verdana;
+   font-weight:bolder;
+}
+
+#BtEspanol a:hover
+{
+   font-family: Verdana;    
+    color: #ffb400;
+    text-decoration:none;    
+    font-weight:bolder;  
+}
+
+
+/*MENU DO HEADER*/
+#BotoesHeaderMenu 		
+{  
+    width:220px;
+    height:40px; 
+	float:right;
+}
+
+.ItensBotoesHeaderMenu
+{   
+    height:26px;
+    padding-top:12px;
+    float:right;
+    margin-right:7px;
+}
+
+.ItensBotoesHeaderMenu:hover
+{
+    text-decoration:underline;       
+}
+
+.linkMenuAcervo:hover
+{
+    text-decoration:underline;
+}
+
+.btnManualHover
+{
+    color:white; 
+    Font-Size:11px;
+    font-weight:bolder;
+    background-color:Black;
+    margin-top:12px; 
+    cursor:pointer; 
+    float:right;
+}
+
+.btnManualHover:hover
+{
+    text-decoration:underline;
+}
+
+#bt_headerMenuLogout {
+    background-image: url("../imagem/bt_headerMenuLogout.jpg");
+    width:32px;
+    height:32px;    
+    float:right;  
+    position:relative;  
+    /*top:53px;*/
+ }
+ 
+ #bt_headerMenuLogout:hover {
+     background-image:url("../imagem/bt_headerMenuLogoutHover.jpg");
+ }
+
+#bt_headerMenuHome {
+    background-image: url("../imagem/bt_headerMenuHome.jpg");
+    width:32px;
+    height:32px;           
+    float:right;  
+    position:relative;  
+   /*top:53px;*/  
+    
+ }
+  
+ .bt_headerMenuHome {
+    background-image: url("../imagem/bt_headerMenuHome.jpg");
+    width:32px;
+    height:32px;           
+    float:right;  
+    position:relative;  
+   /*top:53px;*/  
+    
+ }
+ /*
+ #bt_headerMenuHome:hover {
+     background-image:url("../imagem/bt_headerMenuHomeHover.jpg");
+ } 
+*/
+  
+#bt_headerMenuMapa {
+    background-image: url("../imagem/bt_headerMenuMapa.jpg");
+    width:32px;
+    height:32px;    
+    float:right;  
+    position:relative;  
+    /*top:53px;*/    
+}
+
+.bt_headerMenuMapa {
+    background-image: url("../imagem/bt_headerMenuMapa.jpg");
+    width:32px;
+    height:32px;    
+    float:right;  
+    position:relative;  
+    /*top:53px;*/    
+}
+
+/*
+ #bt_headerMenuMapa:hover {
+     background-image:url("../imagem/bt_headerMenuMapaHover.jpg");
+ }
+ */
+ 
+ #bt_headerMenuBusca{
+    background-image: url("../imagem/bt_headerMenuBusca.jpg");
+    width:32px;
+    height:32px;
+    float:right;  
+    position:relative;  
+    /*top:53px;*/   
+ } 
+ 
+ .bt_headerMenuBusca{
+    background-image: url("../imagem/bt_headerMenuBusca.jpg");
+    width:32px;
+    height:32px;
+    float:right;  
+    position:relative;  
+    /*top:53px;*/   
+ } 
+ 
+ /*
+ #bt_headerMenuBusca:hover {
+     background-image:url("../imagem/bt_headerMenuBuscaHover.jpg");
+ }
+*/
+ 
+#bt_headerMenuGlossario {
+    background-image: url("../imagem/bt_headerMenuAjuda.jpg");
+    width:32px;
+    height:32px;      
+    float:right;  
+    position:relative;  
+    /*top:53px;*/
+ } 
+ 
+ .bt_headerMenuGlossario {
+    background-image: url("../imagem/bt_headerMenuAjuda.jpg");
+    width:32px;
+    height:32px;      
+    float:right;  
+    position:relative;  
+    /*top:53px;*/
+ } 
+
+/* 
+ #bt_headerMenuGlossario:hover {
+     background-image:url("../imagem/bt_headerMenuAjudaHover.jpg");
+ }
+*/
+ 
+#bt_headerMenuContato {
+    background-image: url("../imagem/bt_headerMenuContato.jpg");
+    width:32px;
+    height:32px; 
+    float:right;  
+    position:relative;  
+    /*top:53px;*/
+ }
+ 
+ .bt_headerMenuContato {
+    background-image: url("../imagem/bt_headerMenuContato.jpg");
+    width:32px;
+    height:32px; 
+    float:right;  
+    position:relative;  
+    /*top:53px;*/
+ }
+ 
+ /*
+  #bt_headerMenuContato:hover {
+     background-image:url("../imagem/bt_headerMenuContatoHover.jpg");
+ }
+ */
+  
+ #BuscaGoogle
+ {
+    width:190px;       
+  	background-color:#161f27;
+    float:left;   	
+    margin-top:17px;
+    font-size:8px;
+    color:White;
+    text-align:right;
+   /*background-image: url(../imagem/imgFormatarTexto.jpg);
+    background-repeat:no-repeat;
+    background-position:right;*/
+ } 
+ 
+ #aumentaFonte 
+{
+    /*background-image: url(../imagem/BtnA+.jpg);*/
+    background-image: url(../imagem/img_a_mais.gif); 
+    margin-right:2px;
+
+}
+
+/*
+#aumentaFonte:hover
+{
+    background-image: url(../imagem/BtnA+.jpg);
+}
+*/
+
+#diminuiFonte 
+{
+    /*background-image: url(../imagem/BtnA-.jpg);*/
+    background-image: url(../imagem/img_a_menos.gif);     
+    margin-right:2px;
+}
+
+/*
+#diminuiFonte:hover
+{
+   background-image: url(../imagem/BtnA-.jpg);
+}
+*/
+
+/*
+.restauraFonte
+{
+    background-image: url(../imagem/BtnAA.jpg);
+}
+
+#restauraFonte:hover
+{
+    background-image: url(../imagem/BtnAA.jpg);
+}
+*/
+
+
+/* MENU (ESTATÍSTICO, GEOGRAFICO E ADMINISTRATIVO)  
+   OUTRO MENU (PAGINA INICIAL, MAPA SITE, AJUDA, BUSCA E CONTATO) */	
+#BaixoHeaderMenu {	    
+        width:100%;        
+	    height:30px;
+	    background-color:Black;
+	    float:left;
+	    border-top:1px solid #ffb400;
+	    min-width:1024px;
+}
+
+#BaixoHeaderMenuCentro {	    
+        width:1024px;        
+	    height:30px;
+	    background-color:Black;
+	    margin:0 auto 0 auto;
+}
+
+#BaixoHeaderMenu_estat_geo_adm {
+	    width:500px;
+	    height:30px;
+	    float:left;
+	    margin-left:20px;    
+}
+
+
+#BaixoHeaderMenu_estat {
+    width: 92px;
+    height: 23px;
+    height:18px;
+    text-align: center;
+    font-size: 0.7em;
+    color: White;
+    font-family: Verdana;
+    float:left;    
+    background-image: url("../imagem/fundoMenu.jpg");    
+   /*background-color:#161f27;*/
+    margin-left:5px; 
+    padding-top:5px;
+}
+
+#BaixoHeaderMenu_estat a {
+    color: White;
+    font-family: Verdana;
+    font-weight:bolder;    
+}
+
+#BaixoHeaderMenu_estat a:hover {
+    color: #FFD52B;
+    font-family: Verdana;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+#BaixoHeaderMenu_geo {
+	    width:92px;
+	    height:23px;
+	    height:18px;
+	    text-align:center;	    
+	    font-size: 0.7em;
+	    color:White;
+	    font-family:Verdana;
+	    float:left;	    
+	    background-image: url("../imagem/fundoMenu.jpg");
+        /*background-color:#161f27;*/
+	    margin-left:5px;
+	    padding-top:5px;	    
+}
+
+#BaixoHeaderMenu_geo a {
+    color: White;
+    font-family: Verdana;
+    font-weight:bolder;    
+}
+
+#BaixoHeaderMenu_geo a:hover {
+    color: #FFD52B;
+    font-family: Verdana;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+#BaixoHeaderMenu_adm {
+	    width:118px;
+	    height:23px;
+	    height:18px;
+	    text-align:center;	    
+	    font-size: 0.7em;
+	    color:White;
+	    font-family:Verdana;
+	    float:left;	   
+	    background-image: url("../imagem/fundoMenu.jpg");    
+        /*background-color:#161f27;*/	
+         padding-top:5px;  
+}
+
+#BaixoHeaderMenu_adm a {
+    color: White;
+    font-family: Verdana;
+    font-weight:bolder;    
+}
+
+#BaixoHeaderMenu_adm a:hover {
+    color: #FFD52B;
+    font-family: Verdana;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+
+#Data
+{      
+    height:23px;
+    padding-top:7px;
+    float:right;        
+    position:relative;    
+    margin-right:8px;
+    color:White; 
+    font-size:0.7em; 
+    font-family:Verdana;
+    
+    /*Novo 29/12/11
+    border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;
+    margin-top:-1px;
+    background-color:#161f27;
+    width:220px;
+    height:17px;
+    padding-top:0px;
+    text-align:center;
+    margin-right:3px;*/
+}
+
+
+#saudacao
+{   
+    height:23px;
+    padding-top:7px;
+    float:right;        
+    position:relative;  
+    margin-right:20px;
+    color:White; 
+    font-size:0.7em; 
+    font-family:Verdana; 
+    
+    /*Novo 29/12/11
+    border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;
+    margin-top:-1px;
+    background-color:#161f27;
+    width:60px;
+    height:17px;
+    padding-top:0px;
+    text-align:center;*/
+}
+
+
+#Hora
+{      
+    background-color:Black;
+    height:23px;
+    padding-top:7px;
+    float:right;        
+    position:relative;    
+    text-align:center;
+    margin-right:8px;
+    color:White; 
+    font-size:0.7em; 
+    font-family:Verdana;
+}
+
+
+#logotipoIBGE {
+    width:60px;
+	height:28px;	
+	float:right;
+	/*background-image: url("../imagem/imgLogoIBGE_BaixoHeaderMenu_OutroMenu.jpg");*/
+	margin:0 0 0 0;
+}
+
+
+#AreaAdm
+{
+    /*
+    background-color:#161f27;
+    width: 120px;
+    height: 14px;
+    padding-top:4px;
+    float: right;
+    margin:-1px 3px 0 0;
+    position: relative;  
+    text-align: center;    
+    font-family: Verdana;    
+    color: White;
+    border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;  */ 
+    
+    background-color:#ffb400;
+    /*width: 120px;
+    height: 14px;
+    height:13px;*/
+    padding-top:2px;
+    float: left;
+    margin:1px 0 0 2px;
+    position: relative;  
+    text-align: center;    
+    font-family: Verdana;    
+    color: White;
+    /*border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400; */  
+}
+
+#AreaAdm a
+{   
+    text-align: center;
+    font-family: Verdana;    
+    color: Black;
+    text-decoration:none; 
+    font-size: 8px;  
+    font-weight:bolder;  
+}
+
+#AreaAdm a:hover
+{   
+    text-align: center;
+    font-family: Verdana;    
+    color: Black;
+    text-decoration:none;    
+    font-weight:bolder;  
+}
+
+#Logout
+{   
+    /*
+    background-color:#161f27;
+    width: 50px;
+    height: 14px;
+    padding-top:4px;
+    float: right;
+    margin:-1px 35px 0 0;
+    position: relative;  
+    text-align: center;    
+    font-family: Verdana;    
+    color: White;
+    border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;
+    top: 0px;
+    left: 0px; */
+    
+    background-color:#ffb400;
+    /*width: 50px;
+    height: 14px;
+    height:13px;*/
+    padding-top:2px;
+    float: left;
+    margin:1px 0 0 2px;
+    position: relative;  
+    text-align: center;    
+    font-family: Verdana;    
+    color: White;
+    /*border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;  */  
+}
+
+#Logout a
+{   
+    text-align: center;
+    font-family: Verdana;    
+    color: Black;
+    text-decoration:none; 
+    font-size: 8px;
+    font-weight:bolder;    
+}
+
+#Logout a:hover
+{   
+    text-align: center;
+    font-family: Verdana;    
+    color: Black;
+    text-decoration:none; 
+    font-weight:bolder;     
+}
+
+
+
+
+/*PÁGINA HOME.MASTER*/
+/* marcação da imagem da bandeira e do texto
+(Ministério do Planejamento, orçamento e Gestão) na barra governo  */
+#mpog {
+	float: left;
+	width: 430px;
+	height: 21px;
+	text-indent: -999px;
+	overflow: hidden;
+	background-image: url("../imagem/planejamento_novo.gif");
+	background-repeat: no-repeat;
+	font-size: .75em;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/* marcação da image do brasil alinhada no canto esquerdo na barra governo  */
+#brasil {
+	display: block;
+	float: right;
+	width: 74px;
+	height: 21px;
+	text-indent: -999px;
+	overflow: hidden;
+	background-image: url("../imagem/brasil_novo.gif");
+	background-repeat: no-repeat;
+	font-size: .4em;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do topo, cabeçalho da página */
+#inicial {
+	height: 85px;
+	color: #fff;
+	position: relative;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do logo do ibge no canto direito do topo no topo da página*/
+#logo_ibge {
+	float: right;
+	width: 108px;
+	height: 47px;
+	overflow: hidden;
+	font-size: 1em;
+	border-left: 1px solid #84ABA5;
+	position: relative;
+	}
+
+#logo_ibge a {
+	display: block;
+	width: 108px;
+	height: 47px;
+	overflow: hidden;
+	background: url("../imagem/fundo_ibge_azul.png");
+	text-indent: -999px;
+	cursor: pointer;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do logo do metadados no canto esquerdo do topo no topo da página*/
+#logo_meta {
+	float: left;
+	width: 190px;
+	height: 85px;
+	overflow: hidden;
+	text-indent: -999px;
+	font-size: 2em;
+	background-image: url("../imagem/logo_meta.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	} 
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do sub-menu(página inicial, busca, ajuda, contato) no topo da página*/  
+#tb_busca td {
+	padding: 3px;
+	}
+	
+#tb_busca {
+	font-size: 95%;
+	background: #E6E6E6;
+    border: solid 1px #DDDDDD;
+	}
+
+#menu_meta {
+	float: right;
+	width: 207px;
+	height: 47px;
+	font-size: .7em;
+	background: url("../imagem/fundo_menu.png");
+	}
+
+#menu_meta li, #menu_areas li {
+	display: inline;
+	float: left;
+	}
+
+#menu_meta a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	text-indent: -999px;
+	margin: 7px 5px;
+	position: relative;
+	left: 20px;
+	}
+
+#menu_meta a:hover {
+	background-color: #246456;
+	}
+
+#header a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	text-indent: -999px;
+	}
+	
+#header_secoes a {
+	display: block;
+	width: 120px;
+	height: 27px;
+	overflow: hidden;
+	text-indent: -999px;
+	}
+
+#txt_tamalho_letra {
+	position: relative;
+	left: 170px;
+	left: 380px;
+	top: -30px;
+	top: -15px;
+}
+
+#bt_diminui_texto {
+	/*background-image: url("../imagem/img_a_menos.gif");*/
+	/*background-repeat: no-repeat;*/
+	position: relative;
+	left: 170px;
+	left: 380px;
+	top: 15px;
+	/*top: -25px;*/
+	top: -10px;
+	}
+	
+#bt_aumenta_texto {
+	/*background-image: url("../imagem/img_a_mais.gif");*/
+	/*background-repeat: no-repeat;*/
+	position: relative;
+	left: 170px;
+	left: 380px;
+	top: 15px;
+	/*top: -25px;*/
+	top: -10px;
+	}
+	
+/* marcação dos tamanhos da fonte*/
+.ct1 {
+	font-size: 10px;
+	/*width: 400px;*/
+	/*margin: 0 auto;*/
+	}
+    
+.ct2 {
+	font-size: 11px;
+	}
+    
+.ct3 { 
+	font-size: 12px;
+	}
+
+.ct4 {
+	font-size: 13px;
+	}
+	
+.ct5 {
+	font-size: 14px;
+	}
+
+#header #bt_link_ibge {
+	/*border:solid 1px #FF6600;*/
+	width:85px;
+	height:22px;
+	position: relative;
+	left: 667px;
+	top: -15px;
+	/*top: 3px; Leonardo 15-8-11*/
+	top:-35px;
+	}
+	
+#header #bt_link_ibge_2 {
+	/*border:solid 1px #FF6600;*/
+	width:85px;
+	height:22px;
+	position: relative;
+	left: 667px;
+	top: -78px;
+	top: -60px;
+	/* Top incluso no dia 08-08-11 por usuário 053739477 */
+	/*top: -92px; Leonardo 15-8-11 */
+	top:-130px;
+	}
+	
+#bt_home {
+	background-image: url("../imagem/bt_home.gif");
+	position: relative;
+	/*left: 570px;
+	top: 45px; Retirado Leonardo 26-8-11 */
+	/*top: 63px; Leonardo 15-08-11*/
+	/*top:25px; Leonardo 26-8-11 */
+	top:40px;
+	}
+
+#bt_contato {
+	background-image: url("../imagem/bt_contato.gif");
+	position: relative;
+	/*left: 610px; Leonardo 26-8-11*/
+	left:45px;
+	/*top: 13px; */
+	/*top: 31px; Leonardo 15-8-11*/
+	/*top:-7px; Leonardo 26-8-11 */
+	top:8px;
+	}
+
+#bt_ajuda {
+	background-image: url("../imagem/bt_ajuda.gif");
+	position: relative;
+	left: 620px;
+	top: 23px;
+	/*top: 41px; Leonardo 15-8-11*/
+	top:3px;
+	}
+
+#bt_busca {
+	background-image: url("../imagem/bt_busca.gif");
+	position: relative;
+	left: 660px;
+	top: 23px;
+	/*top: 41px; Leonardo 15-8-11 */
+	top:3px;
+	}
+
+.bt_adm_2 {
+    background-image: url("../imagem/bt_admin.gif");
+	position: relative;
+	left: 450px;
+	/*top: 45px;*/
+	/*top: 63px; Leonardo 15-08-11*/
+	top:25px;
+	}
+	
+.bt_adm_2_off {
+    /*background-image: url("../imagem/bt_admin_off.gif");*/
+	position: relative;
+	left: 450px;
+	/*top: 45px;*/
+	/*top: 63px; Leonardo 15-08-11*/
+	top:25px;
+	}
+
+#bt_home_2 {
+	background-image: url("../imagem/bt_home.gif");
+	position: relative;
+	left: 490px;
+	/*top: 45px;*/
+	/*top: 31px; Leonardo 15-8-11*/
+	top:-7px;
+	}
+
+#bt_contato_2 {
+	background-image: url("../imagem/bt_contato.gif");
+	position: relative;
+	left: 530px;
+	/*top: -51px;*/
+	/*top: -65px; Leonardo 15-8-11*/
+	top:-103px;
+	}
+
+#bt_ajuda_2 {
+	background-image: url("../imagem/bt_ajuda.gif");
+	position: relative;
+	left: 570px;
+	/*top: -19px;*/
+	/*top: -33px; Leonardo 15-8-11 */
+	top:-71px;
+	}
+
+#bt_busca_2 {
+	background-image: url("../imagem/bt_busca.gif");
+	position: relative;
+	left: 610px;
+	/*top: 13px;*/
+	/*top: -1px; Leonardo 15-8-11 */
+	top:-39px;
+	}
+
+#bt_estatistico {
+	background-image: url("../imagem/bgMenuEstatistico.gif");
+	position: relative;
+	left: 490px;
+	top: -37px;
+	top: -59px;
+	top: -41px;
+	/*top: -73px; Leonardo 15-8-11*/
+	top:-111px;
+	}
+	
+#bt_geografico {
+	background-image: url("../imagem/bgMenuGeografico.gif");
+	position: relative;
+	left: 630px;
+	top: -91px;
+	top: -113px;
+	top: -95px;
+	/*top: -127px; Leonardo 15-8-11*/
+	top:-165px;
+	}
+	
+.ie6 #bt_geografico, .ie7 #bt_geografico {
+	top: -94px;
+	top: -116px;
+	top: -98px;
+	/*top: -130px;Leonardo 15-8-11*/
+	top:-168px;
+	}
+
+.bt_adm:hover, .bt_adm_2:hover {
+    background-image: url("../imagem/bt_admin_hover.gif");
+	}
+	
+#bt_home:hover, #bt_home_2:hover {
+	background-image: url("../imagem/bt_home_hover.gif");
+	}
+	
+#bt_contato:hover, #bt_contato_2:hover {
+	background-image: url("../imagem/bt_contato_hover.gif");
+	}
+	
+#bt_ajuda:hover, #bt_ajuda_2:hover {
+	background-image: url("../imagem/bt_ajuda_hover.gif");
+	}
+	
+#bt_busca:hover, #bt_busca_2:hover {
+	background-image: url("../imagem/bt_busca_hover.gif");
+	}
+	
+
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do menu áreas(estatístico e geográficos)*/
+#menu_areas {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	}
+
+#menu_areas a {
+	display: block;
+	width: 131px;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-size: .9em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-image: url("../imagem/aba_desativada.gif");
+	position: relative;
+	margin-left: -1px;
+	}
+
+#menu_areas a:hover {
+	background-image: url("../imagem/aba_desativada.gif");
+	}
+
+#menu_areas a.selecionado {
+	background-image: url("../imagem/aba_ativada.gif");
+	color: #0d335b;
+	}
+
+#menu_estatisticos {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 79px;
+	width: 130px;
+	}
+
+#menu_estatisticos a {
+	display: block;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-size: .9em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4F4F4F;
+	background-image: url("../imagem/aba_ativada.gif");
+	position: relative;
+	margin-left: -1px;
+	}
+
+#menu_geograficos {  
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	width: 130px;
+	}
+
+#menu_geograficos a {
+	display: block;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-size: .9em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #4F4F4F;
+	background-image: url("../imagem/aba_desativada.gif");
+	position: relative;
+	margin-left: -1px;
+	}
+/* Termina a marcação do menu áreas(estatístico e geográficos)*/
+
+/*PÁGINA HOME.MASTER*/
+/* marcação do logotipo central no topo da página */
+#area {
+	display: block;
+	width: 240px;
+	height: 86px;
+	overflow: hidden;
+	background-image: url("../imagem/estatisticos.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -999px;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/* marcação da parte central(corpo da página) */
+#central {
+    width:1024px;
+    height: auto !important;    
+    min-height:500px;
+    background-color: White;   
+    clear:both;
+    margin:0 auto 0 auto;    
+}
+
+	
+.ie6 #central {
+	margin-top: -90px;
+	}
+
+ 
+/*PÁGINA HOME.MASTER*/
+/* marcação do menu de opções no canto esquerdo da página */
+#menu_opcoes {
+	float: left;
+	width: 180px;
+	height: 389px;
+	font-weight: bold;
+	background-image: url("../imagem/canto_novo.gif");
+	background-repeat: no-repeat;
+	clear: both;
+	}
+
+#menu_opcoes a, #menu_opcoes p {
+	display: block;
+	text-decoration: none;
+	width: 180px;
+	padding: 5px 0;
+	color: #666;
+	font-size: .8em;
+	}
+
+#menu_opcoes li {
+	background-image: url("../imagem/fundo_opcoes.gif");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	text-indent: 15px;
+	font-size: 1.25em;
+	}
+
+#menu_opcoes a {
+	color: #fff;
+	background-image: url("../imagem/canto_hover.gif");
+	background-repeat: no-repeat;
+	} 
+
+#menu_opcoes a:hover {
+	background-image: url("../imagem/canto_opcoes.gif");
+	} 
+
+#menu_opcoes .selecionado {
+	background-image: url("../imagem/canto_selecionado.gif");
+	color: #0d335b;
+	}
+	
+	
+/* MENU NOVO */
+#menu_novo {
+	float: left;
+	width: 180px;
+	margin-bottom:30px;
+	background-repeat: no-repeat;
+	clear: both;
+	/*margin-top:15px;*/
+	}
+	
+#menu_novo .menu_titulo {
+	color:Navy;
+	padding:3px;
+	padding-left:10px;
+	width:167px;
+	color:#FFCC00;
+	font-size:85%;
+	/* Acrescentei background Leonardo 30-8-11*/
+	/* mudei a cor de fundo 04-10-11 Leonardobackground-color:#E2E2E2;*/
+    background:Black; 
+    /* Coloquei clear:both 05-10-11 Leonardo */
+    clear:both;
+    font-weight:bolder;	
+    border-top:1px dotted #555555;
+    }
+
+#menu_novo #meta_acervo a {
+	color:Navy;
+	padding:3px;
+	/*padding-left:10px; coloquei o text-align no lugar do padding-left, float:left e o margin-left:10px Leonardo 30-8-11*/
+	text-align:center;
+	float:left;
+	margin-left:10px;
+	/*width:147px; Leonardo 24-8-11*/
+	width:125px;
+	height: 30px;
+	color:#FFCC00;
+	color:White;
+	font-size:75%;
+	background:#888888;
+	background-color:#1c2b37;
+	border: solid 1px #AAAAAA;
+	border-bottom: solid 1px #777777;
+	border-right: solid 1px #777777;
+	background-image: none;
+	/* Coloquei margin-top 05-10-11 Leonardo */
+	margin-top:15px;
+	}
+	
+#menu_novo a {
+	font-family: Verdana, Arial;
+	font-size:75%;
+	/*background:#CCCCCC;
+	background-image: url("../imagem/bgMenuNovo.jpg");
+	background-repeat: no-repeat; Leonardo 30-8-11*/
+	/* mudei a cor de fundo 04-10-11 Leonardo background-color:#E2E2E2;*/
+    background:Black; 	
+	
+	background-position: left top;
+	color:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	width:167px;
+	height:15px;
+	display: block;
+	text-decoration:none;
+	}
+	
+#menu_novo a:hover {
+	background:#AAAAAA;
+	background-image: url("../imagem/bgMenuNovoHoverOutro.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-weight:bold;
+	}
+	
+	
+/* Termina a marcação do menu de opções*/
+
+/*PÁGINA HOME.MASTER*/
+/*marcação do menu(Outros sistemas do IBGE)*/
+#menu_op1 {
+	width: 180px;
+	font-weight: bold;
+	background-image: url("../imagem/canto_novo.gif");
+	background-repeat: no-repeat;
+	clear: both;
+	text-align: center;
+	}
+
+/*PÁGINA HOME.MASTER*/
+/*  marcação do conteúdo central da página */
+#conteudo {
+    /*background-color: #EDEDED;*/
+    background-color: White;
+
+	/* Ajuste da largura 19/12/11 
+	width:531px;
+	width:86%;
+    */
+    width:auto;	
+    height: auto !important;
+	min-height: 477px;	
+	font-size:80%;	
+	float:left;
+	position: relative;
+	text-align: left;	
+	overflow: hidden;
+	overflow: visible;		
+	color:Black;
+	/*padding:0 30px 0 30px;*/
+    top: 0px;
+    left: 0px;
+    margin-top:48px;
+}
+
+#f {
+    /*background-color: #EDEDED;*/
+    background-color: White;
+    width:1024px;
+    height: auto !important;	    	
+	font-size:80%;	
+	text-align: left;	    
+	margin:0 auto;
+}
+
+.ie6 #conteudo, .ie7 #conteudo {
+	margin-top: 10px;
+	}
+
+#conteudo #ctl00_pchConteudo_txtBusca, #conteudo #ctl00_pchConteudo_txtBuscaVariavel {
+	font-family:Verdana, Arial;
+	font-size:100%;
+	color:#333333;
+	padding:3px;
+	width:220px;
+	max-width:220px; /*não permite redimensionamento no SAFARI*/
+	border:solid 1px #CCCCCC;
+	}
+	
+#tb_busca #ctl00_pchConteudo_txtBusca
+{
+	width: 405px;
+	max-width:405px; /*não permite redimensionamento no SAFARI*/
+}
+
+.ie6 #tb_busca #ctl00_pchConteudo_txtBusca, .ie7 #tb_busca #ctl00_pchConteudo_txtBusca
+{
+	width: 380px;
+	max-width:380px; /*não permite redimensionamento no SAFARI*/
+}
+	
+#conteudo #ctl00_pchConteudo_btPesquisar, #conteudo #ctl00_pchConteudo_btnBuscaVariavel {
+	font-family:Verdana, Arial;
+	font-size:100%;
+	color:#333333;
+	padding:2px;
+	border:solid 1px #CCCCCC;
+	}
+
+/*  As linhas abaixo são uns ajustes para navegadores específicos, neste caso o IE 7 e o FIREFOX
+	O código javascript que deverá ser inserido na página que usará este CSS é:
+	var css_browser_selector = function() {var ua=navigator.userAgent.toLowerCase(),is=function(t){return ua.indexOf(t) != -1;},h=document.getElementsByTagName('html')[0],b=(!(/opera|webtv/i.test(ua))&&/msie (\d)/.test(ua))?('ie ie'+RegExp.$1):is('firefox/2')?'firefox ff2':is('firefox/3')?'firefox ff3':is('firefox/')?'firefox':is('opera/9')?'opera opera9':/opera (\d)/.test(ua)?'opera opera'+RegExp.$1:is('konqueror')?'konqueror':is('applewebkit/')?'webkit safari':is('mozilla/')?'firefox':'',os=(is('x11')||is('linux'))?' linux':is('mac')?' mac':is('win')?' win':'';var c=b+os+' js'; h.className += h.className?' '+c:c;}(); */
+.ie7 #conteudo { top: -80px; }
+.ie6 #conteudo { top: -180px; }
+.firefox #conteudo { margin-bottom: -300px; }
+
+#conteudo a {
+	text-decoration: none;
+	color: #0d335b;
+	}
+
+#conteudo a:hover {
+	text-decoration: underline;
+	color: #666;
+	}
+
+#conteudo .titulo, #conteudo .H1 {
+	font-size: 90%;
+	font-weight: bold !important;
+	text-align: left;
+	}
+/* Termina a marcação do conteúdo central da página */
+
+/*PÁGINA PRINCIPALPESQUIA.ASPX */
+
+#ctl00_pchConteudo_grdPesquisa td {
+	/*border: 1px solid #eee !important;
+	background-repeat: no-repeat;
+	font-size:100%;
+	font-family: Verdana, Arial;*/
+	}
+/* Termina a marcação da gride de pesquisas */
+
+/*PÁGINAS PRINCIPAL(*).ASPX*/
+/*  marcação das grides que contém imagem(bullet) */
+#ctl00_pchConteudo_grdCartografia,
+#ctl00_pchConteudo_grdPrincipal,
+/*#ctl00_pchConteudo_grdCategoria, */
+#ctl00_ContentPlaceHolder1_grdAtividades {
+	width: 540px !important;
+	margin: 0 auto !important;
+	padding-left:100px;
+	text-align: left;
+	}
+
+#ctl00_pchConteudo_grdCartografia td, 
+#ctl00_pchConteudo_grdPrincipal td,
+#ctl00_pchConteudo_grdVariaveis td,
+#ctl00_pchConteudo_grdAgregados td,
+#ctl00_pchConteudo_grdClassificacoes td, 
+#ctl00_pchConteudo_grdCategoria td,
+#ctl00_ContentPlaceHolder1_grdAtividades td {
+	border: 1px solid #eee !important;
+	background-repeat: no-repeat;
+	}
+/* Termina a marcação das grides */
+
+/* PÁGINAS  DE DETALHE */
+/* marcação da tabela(conteúdo)*/
+#tblConteudo, #Table1, #Table3, #Table5 {
+	width: 420px !important;
+	width: 520px !important;
+	width: 1024px !important;
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-size: 95%;
+	height:auto;
+	}
+
+#tblConteudo td, #Table1 td, #Table3 td,  #Table5 td {
+	text-align: left !important;
+	vertical-align: top;
+	}
+
+#tblConteudo .titulo, #Table1 .titulo, #Table3 .titulo,  #Table5 .titulo {
+	color: #0d335b;
+	text-transform: uppercase;
+	width: 150px !important;
+	}
+/* Termina a marcação das grides */
+
+
+/*PÁGINAS PRINCIPAL(*).ASPX*/
+/*  marcação das grides */
+#ctl00_pchConteudo_grdOcorrencia,
+#ctl00_pchConteudo_grdVariavel,
+#ctl00_pchConteudo_grdDocumentacao,
+#ctl00_pchConteudo_grdPublicacao,
+#ctl00_pchConteudo_grdQuestionario,
+#ctl00_pchConteudo_grdAgregado, 
+#ct100_pchConteudo_grdClassificacao,
+#ct100_pchConteudo_grdCategoria,
+#ct100_pchConteudo_grdPesquisas {
+	/*width: 170px! important;
+	background-color: White;
+	margin-bottom: 10px;*/
+	}
+
+#ctl00_pchConteudo_grdOcorrencia td, 
+#ctl00_pchConteudo_grdVariavel td, 
+#ctl00_pchConteudo_grdDocumentacao td, 
+#ctl00_pchConteudo_grdPublicacao td, 
+#ctl00_pchConteudo_grdQuestionario td, 
+#ctl00_pchConteudo_grdAgregado td, 
+#ctl00_pchConteudo_grdClassificacao td, 
+#ct100_pchConteudo_grdCategoria td, 
+#ctl00_pchConteudo_grdPesquisas td {    
+	/*border: 1px solid #eee !important;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;*/
+	}
+
+#ctl00_pchConteudo_grdOcorrenciaa, 
+#ctl00_pchConteudo_grdVariavell, 
+#ctl00_pchConteudo_grdDocumentacaoo, 
+#ctl00_pchConteudo_grdPublicacaoo, 
+#ctl00_pchConteudo_grdQuestionarioo, 
+#ctl00_pchConteudo_grdAgregadoo, 
+#ctl00_pchConteudo_grdClassificacaoo, 
+#ct100_pchConteudo_grdCategoria, 
+#ctl00_pchConteudo_grdPesquisass,
+#ctl00_pchConteudo_grdVariavelBme,
+#ctl00_pchConteudo_grdAtributoBme
+ { 
+	/*border: 0px solid #eee !important;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	text-align: left;*/
+	}
+
+#ctl00_pchConteudo_grdOcorrencia th, 
+#ctl00_pchConteudo_grdVariavel th, 
+#ctl00_pchConteudo_grdDocumentacao th, 
+#ctl00_pchConteudo_grdPublicacao th, 
+#ctl00_pchConteudo_grdQuestionario th, 
+#ctl00_pchConteudo_grdAgregado th, 
+#ctl00_pchConteudo_grdClassificacao th, 
+#ct100_pchConteudo_grdCategoria th, 
+#ctl00_pchConteudo_grdPesquisas th {   
+	/*border: 1px solid #eee;
+	background-color: #eee;*/
+	}
+	
+#ctl00_pchConteudo_lblrelac,
+#ctl00_pchConteudo_lblteste 
+{
+	text-decoration:none;
+	font-weight:bold;
+}
+/* Termina a marcação das grides */
+
+/*PÁGINA DETALHEPESQUisA.ASPX */ 
+
+#detalhe_lnk {
+	font-size:11px;
+	margin:20px 0 0 0 ;
+	text-align:left;
+	width:100%;
+	float:left;
+	border-bottom:1px solid Silver;
+	padding-bottom:5px;
+	}
+/*	
+#detalhe_lnk div {
+	color:#666666;	
+	}
+	
+#detalhe_lnk div a {
+	color:#666666;
+	}
+*/
+	
+#detalhe_lnk #ctl00_pchConteudo_lblSIDRA, 
+#detalhe_lnk #ctl00_pchConteudo_lblBME, 
+/*#detalhe_lnk #ctl00_pchConteudo_lnkVariaveis, 
+#detalhe_lnk #ctl00_pchConteudo_lnkVariaveisBme,*/
+#detalhe_lnk #ctl00_pchConteudo_lnkQuestionarios, 
+/*#detalhe_lnk #ctl00_pchConteudo_lnkAgregados, */
+/*#detalhe_lnk #ctl00_pchConteudo_lnkDocumentacoes, */
+#detalhe_lnk #ctl00_pchConteudo_lnkPublicacoes, 
+#detalhe_lnk #ctl00_pchConteudo_lnkPesquisas, 
+/*#detalhe_lnk #ctl00_pchConteudo_lnkClassificacoes,*/
+/*#detalhe_lnk #ctl00_pchConteudo_lnkCategorias */
+{
+	color:#666666;
+	background:#DFDFDF;
+	padding:2px;
+	text-align:left;
+	font-size:11px;
+	}
+	
+/*
+#detalhe_lnk #ctl00_pchConteudo_lnkVariaveis,
+#detalhe_lnk #ctl00_pchConteudo_lnkOcorrencias,
+#detalhe_lnk #ctl00_pchConteudo_lblSidra,
+#detalhe_lnk #ctl00_pchConteudo_lblBme,
+#detalhe_lnk #ctl00_pchConteudo_lblWebsite,
+#detalhe_lnk #ctl00_pchConteudo_lnkVariaveisBme,
+#detalhe_lnk #ctl00_pchConteudo_lnkAgregados,
+#detalhe_lnk #ctl00_pchConteudo_lnkDocumentacoes,
+#detalhe_lnk #ctl00_pchConteudo_lnkClassificacoes, 
+#detalhe_lnk #ctl00_pchConteudo_lnkPublicacoes,
+#detalhe_lnk #ctl00_pchConteudo_lnkCategorias
+{
+    padding:5px 0 0 2px;
+    border:1px solid #c6c6c6;
+    background-color:#e2e2e2;
+    cursor:pointer;
+    
+    background-color:#fefbe3;
+    border:1px solid #c1ba80;
+}
+
+#detalhe_lnk #ctl00_pchConteudo_lnkVariaveis:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkOcorrencias:hover,
+#detalhe_lnk #ctl00_pchConteudo_lblSidra:hover,
+#detalhe_lnk #ctl00_pchConteudo_lblBme:hover,
+#detalhe_lnk #ctl00_pchConteudo_lblWebsite:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkVariaveisBme:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkAgregados:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkDocumentacoes:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkClassificacoes:hover, 
+#detalhe_lnk #ctl00_pchConteudo_lnkPublicacoes:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkCategorias:hover
+{
+    background-color:white;
+}
+
+#detalhe_lnk #ctl00_pchConteudo_lnkGerarDDI,
+#detalhe_lnk #ctl00_pchConteudo_lnkRelatorio
+{
+    color:#4990c5;
+    color:#666666;
+    padding:5px 0 0 2px;
+
+    border:1px solid #c6c6c6;
+    background-color:#e2e2e2;
+    cursor:pointer;
+    text-align:left; 
+    
+    background-color:#fefbe3;
+    border:1px solid #c1ba80;
+   
+}
+
+#detalhe_lnk #ctl00_pchConteudo_lnkGerarDDI:hover,
+#detalhe_lnk #ctl00_pchConteudo_lnkRelatorio:hover
+{
+   
+     background-color:white;
+}
+*/
+
+#detalhe_lnk #ctl00_pchConteudo_lnkAgregados
+{
+    top:-1px;
+}
+
+
+#ctl00_pchConteudo_grdOcorrenciaa .rowGrdOcorrenciaa, 
+#ctl00_pchConteudo_grdVariavell .rowGrdVariavell, 
+#ctl00_pchConteudo_grdAtributoBme .rowGrdAtributoBme,
+#ctl00_pchConteudo_grdDocumentacaoo .rowGrdDocumentacaoo, 
+#ctl00_pchConteudo_grdPublicacaoo .rowGrdPublicacaoo, 
+#ctl00_pchConteudo_grdQuestionarioo .rowGrdQuestionarioo, 
+#ctl00_pchConteudo_grdAgregadoo .rowGrdAgregadoo, 
+#ctl00_pchConteudo_grdClassificacaoo .rowGrdClassificacaoo, 
+#ct100_pchConteudo_grdCategoria .rowGrdCategoria, 
+#ctl00_pchConteudo_grdPesquisass .rowGrdPesquisass, 
+#ctl00_pchConteudo_grdAgregadoClass .rowGrdAgregadoClass, 
+#ctl00_pchConteudo_grdPrincClassificacao .rowGrdPrincClassificacao, 
+#ctl00_pchConteudo_grdPrincPesquisa .rowGrdPrincPesquisa, 
+#ctl00_pchConteudo_grdCategoria .rowGrdCategoria,
+#ctl00_pchConteudo_grdVariavelBme .rowGrdVariavelBme,
+/* Leonardo 17-8-11*/
+#ctl00_pchConteudo_grdInstrumentos .rowGrdInstrumentos
+ {
+	background:#DFDFDF;
+	color:#666666;
+	padding:2px;
+	border:solid 3px #EEEEEE;
+	font-size:smaller;
+	}
+	
+#ctl00_pchConteudo_grdOcorrenciaa .rowGrdOcorrenciaa a, 
+#ctl00_pchConteudo_grdVariavell .rowGrdVariavell a,
+#ctl00_pchConteudo_grdDocumentacaoo .rowGrdDocumentacaoo a,
+#ctl00_pchConteudo_grdPublicacaoo .rowGrdPublicacaoo a,
+#ctl00_pchConteudo_grdQuestionarioo .rowGrdQuestionarioo a,
+#ctl00_pchConteudo_grdAgregadoo .rowGrdAgregadoo a,
+#ctl00_pchConteudo_grdClassificacaoo .rowGrdClassificacaoo a,
+#ct100_pchConteudo_grdCategoria .rowGrdCategoria a,
+#ctl00_pchConteudo_grdPesquisass .rowGrdPesquisass a, 
+#ctl00_pchConteudo_grdAgregadoClass .rowGrdAgregadoClass a, 
+#ctl00_pchConteudo_grdPrincClassificacao .rowGrdPrincClassificacao a, 
+#ctl00_pchConteudo_grdPrincPesquisa .rowGrdPrincPesquisa a,
+#ctl00_pchConteudo_grdVariavelBme .rowGrdVariavelBme a,
+#ctl00_pchConteudo_grdAtributoBme .rowGrdAtributoBme a,
+/* Leonardo 17-8-11*/
+#ctl00_pchConteudo_grdInstrumentos .rowGrdInstrumentos a
+ { 
+	background:#DFDFDF;
+	color:#666666;
+	}
+
+/*PÁGINA DETALHEVARIAVEL.ASPX */
+/*marcação do link de pesquisas */
+a#ctl00_pchConteudo_lnkPesquisas {
+	font-size: .8em;
+	width: 350px;
+	background-color: Transparent;
+	color: #0d335b;
+	position: relative; 
+	top: 3px;
+	text-align: center;
+	padding-left: 5px;
+	}
+
+/*PÁGINA DETALHEOCorRENCIA.ASPX */
+/*marcação do link de classificações */
+/*a#ctl00_pchConteudo_lnkClassificacoes, */
+/*a#ctl00_pchConteudo_lnkCategorias, */
+/*a#ctl00_pchConteudo_lnkAgregados, 
+a#ctl00_pchConteudo_lnkVariaveis,
+a#ctl00_pchConteudo_lnkVariaveisBme*/
+ {
+	font-size: 0.9em;
+	width: 350px;
+	background-color: Transparent;
+	color: #0d335b;
+	position: relative; 
+	top: 3px;
+	text-align: center;
+	}
+
+/*PÁGINA DETALHEOCorRENCIA.ASPX */
+
+#conteudo li {
+	background-image: none;
+	background-repeat: no-repeat;
+	/*text-indent: 10px;*/
+	}
+
+/*PÁGINA HOME.MASTER e DEFAULT.MASTER*/
+/*marcação do rodapé da página */
+#final {
+	clear: both;
+	/*Mudei o background-color de #DCDCDC para white Leronardo 30-8-11 */
+	background-color: White; 
+	/*background-color:White;Leonardo 23-8-11*/
+	color: #999;
+	text-align: center;
+	font-size: .7em;
+	height:75px;
+	/* Acrescentei margin topo 04-10-11 Leonardo*/
+	margin-top:5px;
+	} 
+
+#lblConteudo {
+	color: Navy;
+	font-size: 1em;
+	text-transform: uppercase;
+	} 
+
+#lnkConteudo {
+	color: Navy;
+	font-size: 1em;
+	text-transform: uppercase;
+	}
+
+#hlnkConteudo { 
+	color: Navy;
+	font-size: 1em;
+	text-transform: uppercase;
+	}
+
+/* referenciar a classe da tag ( HTML: class="item" -> CSS: .item ).*/
+
+/*PÁGINA DEFAULT.ASPX e DEFAULTESTATisTICO.ASPX*/
+/* marcação dos tamanhos da fonte*/
+.ft1 {
+	font-size: 11px;
+	width: 400px;
+	margin: 0 auto;  
+	}
+    
+.ft2 {
+		font-size: 12px;
+		width: 400px;
+        margin: 0 auto;
+}
+    
+.ft3 { 
+	font-size: 13px;
+	width: 400px;
+	margin: 0 auto; 
+	}
+
+.ft4 {
+	font-size: 14px;
+	width: 400px;
+	margin: 0 auto; 
+	}
+/* Termina a marcação das grides */
+
+/* PÁGINA FALECONOSCO.ASPX */
+
+#faleConosco {
+	font-family:Verdana, Arial;
+	font-size:95%;
+	color:#333333;
+	}
+	
+#ctl00_pchConteudo_txtNome, 
+#ctl00_pchConteudo_txtEmail, 
+#ctl00_pchConteudo_txtAssunto {
+	font-family:Verdana, Arial;
+	font-size:95%;
+	color:#333333;
+	width:400px;
+	max-width:400px; /*não permite redimensionamento no SAFARI*/
+	border:solid 1px #CCCCCC;
+	}
+	
+#ctl00_pchConteudo_txtMensagem {
+	font-family:Verdana, Arial;
+	font-size:95%;
+	color:#333333;
+	height:100px;
+	width:400px;
+	max-width:400px; /*não permite redimensionamento no SAFARI*/
+	max-height:100px;
+	border:solid 1px #CCCCCC;
+	}
+	
+#faleConosco td {
+	vertical-align:middle;
+	text-align:right;
+	}
+
+.txtValor {
+	/*width:400px;
+	height:600px;
+	color:#333333;
+	font-size:90%;
+	font-family:Verdana, Arial;
+	padding:2px;
+	margin:2px;
+	border:solid 1px #CCCCCC;*/
+	
+	width:369px;
+	height:20px;
+	background-color:white;
+	padding:5px 2px;
+	}
+
+.ddlCat
+{
+    padding:5px 2px
+}	
+
+.txtMulti
+{
+    padding:5px 2px
+}
+
+	
+.btFaleConosco {
+	background-image: url('../imagem/fundoBtnFaleConosco.png');
+	font-family:Verdana, Arial;
+	font-size:12px;
+	color:#666666;
+	cursor:pointer;
+	}
+	
+.btFaleConosco:hover 
+{
+	background-image: url('../imagem/fundoBtnFaleConoscoHover.png');
+}
+
+.txtFaleConosco
+{   
+	padding:7px 2px;
+}
+
+.hlnkBtnIbge
+{
+    width:170px;
+    height:22px;
+    background-image: url('../imagem/fundoBtnLinkIbge.png');
+    text-align:center;
+    padding:8px 0 0 0;
+    color:#666666;
+    text-decoration:none;
+    font-family:Verdana, Arial;
+	font-size:12px;
+}
+
+.hlnkBtnIbge:hover
+{
+    text-decoration:none;
+    font-family:Verdana, Arial;
+	font-size:12px;
+	color:#666666;
+    background-image: url('../imagem/fundoBtnLinkIbgeHover.png');
+}
+
+
+/* Termina a marcação das grides */
+
+/*----------------------------------------------------------------------------*/
+/* marcação dos campos(da navegação) que aparecem no corpo da página(no topo)*/
+#ctl00_pchConteudo_lnkTitulo,
+#ctl00_pchConteudo_lblTitulo,
+#ctl00_pchConteudo_lblSubTitulo,
+#ctl00_pchConteudo_lnkPesquisa,
+#ctl00_pchConteudo_lnkOcorrencia,
+#ctl00_pchConteudo_lnkTituloPesquisa,
+#ctl00_pchConteudo_lblSubTituloPesquisa,
+#ctl00_pchConteudo_lnkTituloOcorrencia,
+#ctl00_pchConteudo_lblSubTituloOcorrencia,
+#ctl00_ContentPlaceHolder1__Label1,
+#ctl00_ContentPlaceHolder1_lblTitulo,
+#ctl00_pchConteudo_lblSubTituloVariavel,
+#ctl00_pchConteudo_lblSubTituloAgregado,
+#ctl00_pchConteudo_lnkTituloAgregado,
+#ctl00_pchConteudo_lblSubTituloClassificacao,
+#ctl00_pchConteudo_lnkTituloClassificacao,
+#ctl00_pchConteudo_lnkObjeto,
+#ctl00_pchConteudo_lblSubTituloObjeto,
+#ctl00_pchConteudo_lnkClassificacao {
+	font-family: Verdana, Arial;
+	font-size:90%;
+	font-weight: bold;
+	}
+/* Termina a marcação dos campos de texto*/
+
+/* PÁGINAS PRINCIPAis(*)*/
+/*marcação da fonte da paginação*/
+.paginacao
+{
+    font-family: verdana;
+    color:Black;    
+    font-size: 11px;
+    padding: 0px 5px;
+    text-decoration:none;
+    height:30px;
+    font-size:12px;
+    font-weight:bolder;
+}
+
+.paginacao a
+{
+    font-family: verdana;
+    color: #989898;
+    font-size: 11px;    
+    padding: 0px 5px;
+    text-decoration:none;
+    width:12px;
+    height:12px;
+}
+	
+.paginacao a:hover
+{
+    color:Black;
+    text-decoration:none;
+}	
+
+/* PÁGINAS 
+   PRINCIPALTEMA.ASPX, 
+   PRINCIPALPERIODICIDADE.ASPX, 
+   PRINCIPALNIVELTERRITorIAL.ASPX */
+/* marcação da fonte dos navegadores */
+.titulo {
+	font-family: Verdana;
+	text-transform:uppercase;
+	font-weight: bold;
+	color: Black;
+	color: Navy;
+	}
+
+/* PÁGINA HOME.MASTER */
+/* marcação dos contadores*/
+#id_duvida {
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-left: 3px;
+	position: relative;
+	font-size: x-small;
+	width: 160px;
+	left: 10px;
+	}
+
+/*O script abaixo é um ajuste para que no arquivo CSS abaixo possua propriedades específicas para cada navegador, neste caso foi utilizado para o IE 7*/
+.ie7 #id_duvida{
+	left: -170px;
+	top: 390px;
+	}
+	
+.ie6 #id_duvida {
+	left: -170px;
+	top: 390px;
+	margin-bottom:100px;
+	}
+
+/* PÁGINA PRINCIPALPESQUisA.ASPX */
+/* marcação da tabela de link's relacionados*/
+#tblinkrealcionado {
+	width: 150px;
+	float: left;
+	margin-top: 5px;
+	}
+
+/* PÁGINA PRINCIPALPESQUisA.ASPX */
+/* marcação do primeiro Label da tabela(título)link's relacionados*/
+.submenu {
+	background-color: Navy;
+	font-size: 12px;
+	font-family: Verdana;
+	color: White;
+	width: 150px;
+	text-align: center;
+	}
+
+/*PÁGINA DETALHEOCorRENCIA.ASPX E DETALHEPESQUisA.ASPX*/
+/*marcação das outras Label's da tabela link's relacionados*/
+.itensmenu {
+	background-color: silver;
+	font-family: Verdana;
+	color: White;
+	width: 150px;
+	font-size: 11px;
+	}
+
+/* PÁGINAS PRINCIPAis(*).ASPX */
+/* marcação do link de ajuda */
+#id_ajuda {
+	background-position: right;
+	background-image: url("../imagem/ajuda2.gif");
+	background-repeat: no-repeat;
+	padding-left: 2px;
+	position: relative; 
+	top: -40;
+	}
+
+/*PÁGINA DETALHEPUBLICACAO.ASPX*/
+/* marcação do link de loja virtual*/
+.lojaVirtual {
+	background-repeat: no-repeat;
+	}
+	
+#grdProcessos, 
+#grdVariaveis, 
+#grdAgregados, 
+#grdOcorrencias, 
+#grdPublicacoes, 
+#grdDocumentacoes, 
+#grdClassificacoes {
+	/*margin-bottom:30px; Leonardo 17-8-11*/
+	margin-bottom:0px;
+	border:solid 2px #E6E6E6;
+	color:#333333;
+}
+
+#grdProcessos a, #grdVariaveis a, #grdAgregados a, #grdOcorrencias a, #grdPublicacoes a, #grdDocumentacoes a, #grdClassificacoes a{
+	color:#666666;
+	color:#333333;
+}
+.txt_corpo {
+	font-family:Arial;
+	font-size:14;
+	color:Black;
+}
+.gridPager a{
+	font-size:14px;
+}
+a {
+	color:#000000;
+	text-decoration:none;
+}
+a:hover {
+	color:#000000;
+	text-decoration:underline;
+}
+.txt_corpo {
+	font-family:Arial;
+	font-size:14;
+	color:Black;
+}
+
+#ctl00_pchConteudo_lnkVerTodos1, 
+#ctl00_pchConteudo_lnkVerTodos2, 
+#ctl00_pchConteudo_lnkVerTodos3, 
+#ctl00_pchConteudo_lnkVerTodos4, 
+#ctl00_pchConteudo_lnkVerTodos5
+{	
+    width:auto;
+    float:left;
+	margin:0px 0px 20px 5px;
+}
+
+#ctl00_pchConteudo_grdVariaveis,
+#ctl00_pchConteudo_grdAgregados,
+#ctl00_pchConteudo_grdClassificacoes,
+#ctl00_pchConteudo_grdPesquisa {
+	/*width: 540px !important;
+	margin-top:30px;
+	margin-bottom:10px;
+	padding-left:100px;
+	text-align: left;*/
+	}
+	
+#ctl00_pchConteudo_lblFiltro {
+	position: relative;
+	bottom:-30px;
+}
+
+#ctl00_pchConteudo_lblData, 
+#ctl00_pchConteudo_lblTitulo, 
+#ctl00_pchConteudo_lblTexto, 
+#ctl00_pchConteudo_lblFonte
+{
+	padding: 2px;
+	color: #333333;
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*MENU NOVO PAGINA NOVA 11-11-11*/
+#MenuLateralEsquerdo
+{   
+    /*
+    color:Black; 
+    clear:both; 
+    float:left; 
+    /*Mudança de largura 20/12/12
+    width:14%; *
+    width:217px;
+    position:relative; */
+    
+    color:Black; 
+    
+    float:left; 
+    /*Mudança de largura 20/12/12
+    width:14%; */
+    width:1024px;
+    position:relative;  
+    margin-top:50px; 
+}
+
+/**/
+#MenuLateralEsquerdoTopo
+{   
+    background-image: url("../imagem/menuAcervo.jpg");  
+    background-repeat:no-repeat;
+    float:left;     
+    width:211px;
+    height:60px;
+}
+
+#MenuLateralEsquerdoMeio
+{
+    float:left;
+    clear:both; 
+    width:165px;
+    height:350px;
+    background-color:Black;   
+}
+
+#MenuLateralEsquerdoBaixo
+{
+    background-image: url("../imagem/menuAcervoBaixo.jpg");  
+    background-repeat:no-repeat;
+    float:left;   
+    clear:both;  
+    width:211px;
+    height:20px;
+}
+
+/* LAYOUT DE MENU ORIGINAL*/
+.MenuLateralEsquerdoTitulo
+{
+    
+    /*background-color:#C1C1C1;*/
+    background-image: url(../imagem/bg_usuario.jpg);
+	background-repeat: repeat-x;
+	background-position:bottom;
+    padding-left:5px; 
+    padding-top:12px;
+    color:Black; 
+    clear:both; 
+    float:left; 
+    width:165px; 
+    height:23px;
+    font-size:0.6em; 
+    position:relative; 
+    margin:30px 0 0 0px; 
+    font-weight:bolder;   
+    border-top: 1px solid #C1C1C1;
+    border-right:3px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-left: 3px solid #C1C1C1;
+}
+
+
+.MenuLateralEsquerdoItemMenu
+{
+    padding-left: 5px;
+    clear: both;
+    float: left;
+    width: 208px;
+    width:165px;
+    height: 17px;
+    padding-top: 8px;
+    position: relative;
+    margin: 2px 0 0 0px;
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-left: 3px solid #C1C1C1;
+    border-right:3px solid #C1C1C1;
+    top: 0px;
+    left: 0px;
+    background-color:#e9e9e9;
+}
+
+.MenuLateralEsquerdoItemMenu a
+{
+    color:Black;
+    font-size:0.7em;
+    font-family:Verdana;
+}
+
+.MenuLateralEsquerdoItemMenu a:hover {    
+    font-size:0.7em;
+    font-family:Verdana;
+    text-decoration:underline;
+    font-weight:bolder;
+    padding-left:5px;   
+}
+
+
+.MenuLateralEsquerdoItemMenuVoltar
+{
+    clear: both;
+    float: left;
+    position: relative;    
+    background-color:White;
+    margin-top:15px; 
+}
+
+.MenuLateralEsquerdoItemMenuVoltar a
+{
+    font-size:10px;
+    color:Black; 
+    font-family:Verdana;      
+}
+
+.MenuLateralEsquerdoItemMenuVoltar a:hover
+{
+    text-decoration:none;
+}
+
+
+
+.MenuLateralEsquerdoItemMenuAntiga
+{
+    padding:7px 0 0 6px;
+    clear: both;
+    float: left;
+    width:79px;
+    height: 13px;
+    position: relative;
+    margin: -1px 0 0 92px;    
+    border-bottom: 1px solid #C1C1C1;
+    
+    border-left: 1px solid #C1C1C1;
+    border-right:3px solid #C1C1C1;
+    color:Black;  
+    background-color:#EDEDED;  
+}
+
+.MenuLateralEsquerdoItemMenuAntiga a
+{
+    font-size:8px;
+    color:Black; 
+    font-family:Verdana;      
+}
+
+.MenuLateralEsquerdoItemMenuAntiga a:hover
+{
+    text-decoration:underline;
+}
+
+
+/* OUTRO MODELO DE LAYOUT DE MENU 
+.MenuLateralEsquerdoTitulo
+{    
+    padding-left:5px; 
+    color:White; 
+    clear:both; 
+    float:left; 
+    height:15px;
+    font-size:0.7em; 
+    position:relative; 
+    font-weight:bolder;
+    padding-top:5px;  
+    margin-top:25px; 
+}
+
+.MenuLateralEsquerdoItemMenu
+{
+    padding-left: 5px;
+    clear: both;
+    float: left;
+    height: 18px;
+    padding-top: 2px;
+    position: relative;
+    margin: 4px 0 0 0;  
+    width:215px;      
+}
+
+.MenuLateralEsquerdoItemMenu a
+{
+    color:White;
+    font-size:0.7em;
+    font-family:Verdana;
+}
+
+.MenuLateralEsquerdoItemMenu a:hover {    
+    font-size:0.7em;
+    font-family:Verdana;
+    text-decoration:underline;
+    font-weight:bolder;
+}
+*/
+
+
+
+
+#linkAcervoAntigo 
+{     
+    /*border:2px solid #C1C1C1;*/   
+    text-align:center; 
+    padding-top:5px;    
+    clear:both; 
+    float:left; 
+    width:100px; 
+    height:35px;     
+    position:relative; 
+    left:5px;
+    margin:15px 0 0 0;
+    border:1px solid #C1C1C1;
+}
+
+#linkAcervoAntigo a
+{
+    color:Black;
+    font-size:10px;    
+    font-family:Verdana;
+}
+
+
+#linkAcervoAntigo a:hover
+{
+    
+    font-family:Verdana;
+    text-decoration:underline;
+}
+
+
+#linkVoltarAcervo
+{    
+    /*border:2px solid #C1C1C1; */   
+    text-align:center; 
+    padding-top:5px; 
+    float:left; 
+    width:100px; 
+    height:35px;     
+    position:relative;
+    left:10px;
+    margin:15px 0 0 0;      
+    
+    border:1px solid #C1C1C1;    
+}
+
+#linkVoltarAcervo a
+{
+    color:Black;
+    font-size:10px;    
+    font-family:Verdana;
+}
+
+
+#linkVoltarAcervo a:hover
+{
+    
+    font-family:Verdana;
+    text-decoration:underline;
+}
+
+
+ /* TESTE DE VERIFICAÇÃO */   
+.MenuAcessoSistemas
+{
+    /*background-image: url("../imagem/fundoMenuPaginaNova.jpg");
+    background-repeat:repeat-y; *
+    
+    background-image: url(../imagem/bg_usuario.jpg);
+	background-repeat: repeat-x;
+	background-position:bottom;
+    padding-left:5px;    
+    clear:both; 
+    float:left; 
+    width:208px; 
+    height:46px;
+    padding-top:14px;     
+    position:relative; 
+    margin:10px 0 0 0; 
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-right:5px solid #C1C1C1;*/
+    
+    /*background-image: url("../imagem/fundoMenuPaginaNova.jpg");
+    background-repeat:repeat-y;*/
+    
+    /*background-image: url(../imagem/bg_usuario.jpg);*/
+    background-image: url('../imagem/menu_default_fundo_256_x_24.jpg');
+	background-repeat: repeat-x;
+	background-position:bottom;
+    text-align:center;
+    float:left;     
+    width:252px; 
+    height:21px;
+    padding-top:7px;     
+    position:relative; 
+    margin:0px 0 0 0px; 
+    /**/border-top: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
+    border-right:1px solid #C1C1C1;
+    border-left:1px solid #C1C1C1;
+}
+
+.MenuAcessoSistemas a
+{
+    color:Black;
+    font-size:12px;
+    font-family:Verdana;
+   
+}
+
+.MenuAcessoSistemas a:hover {    
+    font-size:11px;
+    font-family:Verdana;
+    font-weight:bolder;
+}
+
+
+
+
+/*BOTÃO DE LINK PARA ACESAR PUBLICAMENTE (PÁGINA: defaultNova.aspx) */
+.btAcessoPublico
+{
+    text-align:center;
+    height:18px;
+    padding-top:1px;
+    border:1px Solid Black;
+    background-color:White;
+}
+
+
+
+
+
+/*
+ul{list-style-type: none;}
+
+ul .menu li {display: none; float: left;}
+
+.menu {display: block; margin-left: 0px; position: relative; width: 200px; height:25px; text-align: center; margin-top: 5px; color:Black;}
+
+ul li:hover ul {position: absolute; margin-left: 0px; margin-top: 10px; background-color:White; width:680px; border:1px solid Silver; text-align:justify; padding:10px 10px 10px 10px;}
+ul li:hover ul li{display: block; position: relative; float: none;
+*/
+
+
+
+.paren
+{
+    border:1px solid Silver;
+}
+
+.parent
+{
+    border:1px solid Silver;
+}
+
+
+
+
+
+
+
+.Div1
+{
+    background-color:#161f27;   
+    float: left;
+    margin:-1px 0 0 3px;
+    position: relative;  
+    text-align: center;    
+    border-bottom:1px Solid #ffb400;
+    border-left:1px Solid #ffb400;
+    border-right:1px Solid #ffb400;
+    padding-top:3px;
+}
+
+.Div1 a
+{
+   color:White;
+   font-size:8px;
+   font-family:Verdana;
+   font-weight:bolder;
+}
+
+.Div1 a:hover
+{
+   font-family: Verdana;    
+    color: #ffb400;
+    text-decoration:none;    
+    font-weight:bolder;  
+}
+
+
+
+
+/*NOVO MENU 10/01/12 LEONARDO */
+ul 
+{
+margin-left:6px;
+padding: 0;
+list-style: none;
+clear:both;
+width:169px;
+}
+
+ul li {
+position: relative;
+width:169px;
+margin-top:2px;
+border-top: 1px solid #c1c1c1;
+border-left:3px solid #c1c1c1;
+border-right:3px solid #c1c1c1;
+border-bottom:1px solid #c1c1c1;
+}
+
+li ul {
+position: absolute;
+left: 167px;
+top: -3px;
+display: none;
+width:70px;
+}
+
+ul li a {
+display: block;
+text-decoration: none;
+color: Black;
+padding: 5px;
+font-size:10px;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+
+
+
+li:hover ul  {
+display: block; 
+}
+
+li:hover ul, li.over ul {
+display: block;
+
+}
+
+li:hover ul, li:hover ul {
+display: block;
+
+}
+
+.noticias
+{
+    color:#ffb400;
+    color:Black;
+    /*background-image: url(../imagem/bg_usuario.jpg);
+	background-repeat: repeat-x;
+	background-position:bottom;*/
+	/*background-image: url(../imagem/noticias.jpg);
+	background-repeat: no-repeat;
+	background-position: 7px;*/
+	background-image: url('../imagem/menu_default_fundo_256_x_24.jpg');
+	background-repeat: repeat-x;
+	background-position:bottom;
+    padding-top:7px; 
+    /*padding-left:47px;
+    font-weight:bolder; */
+    font-size:12px;    
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 4px solid #C1C1C1;
+    border-right:1px solid #C1C1C1;
+    border-left:1px solid #C1C1C1;
+    text-align:center;
+    float:left;
+}
+
+.todasNoticias
+{
+    color:#ffb400;
+    color:Black;  
+	background-image: url('../imagem/menu_default_fundo_256_x_24.jpg');
+	background-repeat: repeat-x;
+	background-position:bottom;
+    padding-top:7px; 
+    font-size:12px;    
+    border-top: 1px solid #C1C1C1;
+    border-bottom: 4px solid #C1C1C1;
+    border-right:1px solid #C1C1C1;
+    border-left:1px solid #C1C1C1;
+    text-align:center;
+}
+
+
+#linhaNoticias
+{
+    float:left; 
+    width:1024px; 
+    height:7px;
+    background-image: url(../imagem/bg_usuario.jpg);
+	background-repeat: repeat-x;
+	
+}
+
+#RodapeNoticias
+{
+    float:left; 
+    width:1024px; 
+    height:5px;
+    background-image: url(../imagem/bg_usuario.jpg);
+	background-repeat: repeat-x;
+	
+}
+
+.dataNoticia
+{
+    text-align:center;
+    margin-left:10px;
+    padding-top:4px;
+    font-size:10px;
+}
+
+
+.verTodas
+{
+   float:right;
+   position:relative;
+   top:-12px;
+   background-color:white;
+   margin-right:28px;
+   text-align:center;
+   font-size:10px;
+   border:1px solid #c1c1c1;
+   padding-top:4px;
+   cursor:pointer;
+}
+
+
+.rodapeMenu
+{
+    padding-left:13px;
+}
+
+#voltarTopoImg a
+{
+    
+    width:150px;
+    height:40px;
+    margin-top:0px;
+    float:right;
+    background-image: url(../imagem/voltarTopo.jpg);
+	background-repeat: no-repeat;
+	color:White;
+	font-size:10px;
+	text-align:right;
+}
+
+
+
+
+
+
+
+
+.no
+{
+    width:250px;
+}
+
+
+
+
+
+
+
+
+/*.tituloPaginaMenu
+{    
+    width:100%;
+    height:auto;
+    padding-top:3px;
+    float:left;    
+    margin-top:20px;
+    padding-bottom:10px;
+}
+
+
+.tituloPagina
+{    
+    width:100%;
+    height:auto;
+    padding-top:3px;
+    float:left; 
+    padding-bottom:5px;
+}*/
+
+.caminho
+{
+    float:left;
+    margin-left:5px;
+}
+
+.caminhoSpan
+{
+    float:left;
+    height:12px;
+    width:12px;
+    margin-left:5px;
+    background-image: url('../imagem/imgNavegacao.png');
+    margin-top:4px;
+}
+
+.caminhoSpanItemMenu
+{
+    float:left;
+    height:12px;
+    width:12px;
+    margin-left:5px;
+    background-image: url('../imagem/imgNavegacao.png');
+    margin-top:1px;
+}
+
+
+/* ACESSO IDENFICADO - 03/04/12 - LEONARDO SCHUNK */
+#int_menu {
+width: 140px; /* Largura do menu */
+float: left !important;
+height:28px;
+}
+#int_menu ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+#int_menu li p 
+{
+background-color:Black;
+height:20px;
+padding-top: 8px;
+font-family: verdana;
+font-size: 10px;
+color: white;
+cursor: pointer;
+margin: 0;
+}
+#int_menu li p.ativo {
+background: Black;
+color: #ffb400;
+}
+#int_menu li p:hover {
+color: #ffb400;
+}
+#int_menu li {
+display:inline;
+margin: 0;
+padding: 0;
+}
+#int_menu li ul li {
+    float:left;
+    width:250px;
+    height:22px;
+}
+#int_menu li ul 
+{
+    width:250px;
+    height:160px;
+    background-color:#161f27;
+    position:relative;
+    float:left;
+    top:-29px;
+    left:-265px;
+    border-bottom:1px solid #ffb400;
+    border-left:1px solid #ffb400;
+    border-right:1px solid #ffb400;
+}
+#int_menu li a {
+background: Red;
+display:block;
+font: 12px Arial;
+color: Green;
+display:block;
+text-decoration:none;
+height:17px;
+padding-top: 5px;
+}
+
+#int_menu li a:hover, #int_menu li a:active, #int_menu li a.active {
+color:Green;
+}
+
+.textoLbl
+{
+    font-family:Verdana;
+    color:White;
+    font-size:10px;
+    font-weight:bolder;
+}
+
+.loginLbl
+{
+    font-family:Verdana;
+    color:White;
+    font-size:10px;
+}
+
+.loginTxt
+{
+    border:1px solid #ffb400;
+
+}
+
+.senhaTxt
+{
+    border:1px solid #ffb400;
+
+}
+
+.senhaLbl
+{
+    font-family:Verdana;
+    color:White;
+    font-size:10px;
+}
+
+.entrarBtn
+{
+    font-family:Verdana;
+    color:Black;
+    font-size:10px;
+    border:1px solid #ffb400;
+}
+
+
+
+/*INÍCIO DO MENU NOVO */
+.novoMenu
+{
+    width:auto;
+    height:20px;
+    float:left;
+    margin-top:10px;
+}
+
+
+/* acervo*/
+#ulAcervo
+{
+    width:150px;
+    height:20px;
+    float:left;
+    background-image: url('../imagem/itemMenuAcervo.jpg');
+    background-repeat:no-repeat;
+    text-align:center;
+}
+
+#ulAcervo:hover
+{   
+    background-image: url('../imagem/itemMenuAcervoHover.jpg');
+    background-repeat:no-repeat;
+
+}
+
+#liMenuAcervo
+{
+    width:150px;
+    height:18px;
+    padding-top:2px;
+    float:left;
+    border:0px;
+    position:relative;
+    left:-1px;
+    top:-2px;
+    text-align:center;
+}
+
+#aMenuAcervo
+{
+    color:Black; 
+    cursor:pointer; 
+    text-decoration:none; 
+    text-align:center; 
+    font-size:10px;
+    text-align:center;
+}
+
+#ulSubMenuAcervo
+{    
+    width:480px; 
+    height:250px; 
+    position:relative;
+    left:-5px;
+    top:-4px;
+    float:left;
+    background-color:White;     
+    border-left:1px solid black; 
+    border-bottom:1px solid black; 
+    border-right:1px solid black;        
+}
+
+#liSubMenuItemEstatAcervo
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:30px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuItemEstatAcervo:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemAdminAcervo
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuItemAdminAcervo:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+#liSubMenuItemGeoAcervo
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuItemGeoAcervo:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;  
+}
+
+
+
+/*links*/
+#ulLinks
+{
+    width:80px;
+    height:20px;     
+    float:left; 
+    background-image: url('../imagem/itemMenuAcervoLinks.jpg'); 
+    background-repeat:no-repeat;    
+}
+
+#ulLinks:hover
+{   
+    background-image: url('../imagem/itemMenuAcervoLinksHover.jpg'); 
+    background-repeat:no-repeat;    
+}
+
+#liMenuLinks
+{
+   width:80px;
+   height:18px;
+   padding-top:2px;
+   float:left;
+   border:0px;
+   position:relative;
+   left:-1px;
+   top:-2px;
+   text-align:center;
+}
+
+#aMenuLinks
+{
+    color:Black; 
+    cursor:pointer; 
+    text-decoration:none; 
+    text-align:center; 
+    font-size:10px;
+    text-align:center;
+    
+}
+
+#ulSubMenuLinks
+{    
+    width:480px; 
+    height:345px; 
+    position:relative;
+    left:-5px;
+    top:-4px;
+    float:left;
+    background-color:White;     
+    border-left:1px solid black; 
+    border-bottom:1px solid black; 
+    border-right:1px solid black;          
+}
+
+#liSubMenuItemBmeLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat;    
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:30px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none;  
+}
+
+#liSubMenuItemBmeLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemSidraLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+   
+}
+
+#liSubMenuItemSidraLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+#liSubMenuItemConcarLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+}
+
+#liSubMenuItemConcarLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+
+#liSubMenuItemConclaLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+}
+
+#liSubMenuItemConclaLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemCidadesLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+}
+
+#liSubMenuItemCidadesLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemEstadosLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+}
+
+#liSubMenuItemEstadosLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+#liSubMenuItemPaisesLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none; 
+}
+
+#liSubMenuItemPaisesLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+#liSubMenuItemMapasInterativosLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none;     
+}
+
+#liSubMenuItemMapasInterativosLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+
+#liSubMenuItemSeriesEstatisticasLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none;     
+}
+
+#liSubMenuItemSeriesEstatisticasLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemMetaAcervoLinks
+{
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none;     
+}
+
+#liSubMenuItemMetaAcervoLinks:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+/*area administrativa*/
+#ulAdmin
+{
+    width:120px;
+    height:20px;
+    float:left;    
+    text-align:center;    
+    background-image: url('../imagem/itemMenuAcervoAdm.jpg'); 
+    background-repeat:no-repeat;     
+}
+
+#ulAdmin:hover
+{
+    
+    background-image: url('../imagem/itemMenuAcervoAdmHover.jpg'); 
+    background-repeat:no-repeat;     
+}
+
+#liMenuAdmin
+{
+  width:120px;
+  height:18px;
+  padding-top:2px;
+  float:left;
+  border:0px;
+  position:relative;
+  left:-1px;
+  top:-2px;
+  text-align:center; 
+}
+
+#aMenuAdmin
+{
+  color:Black; 
+  cursor:pointer; 
+  text-decoration:none; 
+  text-align:center; 
+  font-size:10px;
+  text-align:center;   
+}
+
+#ulSubMenuAdmin
+{
+    width:370px; 
+    height:240px; 
+    position:relative;
+    left:-5px;
+    top:-4px;
+    float:left;
+    background-color:White;     
+    border-left:1px solid black; 
+    border-bottom:1px solid black; 
+    border-right:1px solid black;      
+}
+
+#liSubMenuItemAcessoAdmin
+{    
+    background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; 
+    width:256px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:30px 0 0 10px; 
+    background-color:Silver; 
+    text-align:left;  
+    color:Black;
+    border:none;    
+    cursor:pointer;     
+    text-decoration:none;  
+}
+
+#liSubMenuItemAcessoAdmin:hover
+{
+    background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   
+}
+
+#liSubMenuItemUsuarioAdmin
+{    
+    
+}
+
+#liSubMenuItemSenhaAdmin
+{
+     
+}
+
+
+#liSubMenuItemEntrarAdmin
+{
+     
+}
+/*TÉRMINO DO MENU NOVO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TESTE LEONARDO 15/06/12 */
+/*ProcessosEstAdm*/
+.ProcessosEstAdm
+{
+    width:195px;
+    height:25px;
+    float:right;
+    margin-top:25px;
+    background-color:;
+    padding-right:5px;
+    
+}
+
+
+#ulProcessosEstAdm
+{
+    width:195px;
+    height:25px;
+    float:right;
+    /*background-image: url('../imagem/itemMenuAcervo.jpg');
+    background-repeat:no-repeat;*/
+    text-align:center;
+    background-color:;
+}
+
+#ulProcessosEstAdm:hover
+{   
+    /*background-image: url('../imagem/itemMenuAcervoHover.jpg');
+    background-repeat:no-repeat;
+    background-color:white;
+    border-left:1px solid Silver; 
+    border-top:1px solid Silver; 
+    border-right:1px solid Silver;*/
+
+}
+
+#liProcessosEstAdm
+{
+    width:195px;
+    height:25px;    
+    float:right;
+    border:0px;
+    position:relative;
+    left:-1px;
+    top:-2px;
+    text-align:center;
+    background-color:;
+}
+
+#aProcessosEstAdm
+{
+    color:Black; 
+    cursor:pointer; 
+    text-decoration:none; 
+    text-align:center; 
+    font-size:10px;
+    text-align:center;
+}
+
+#ulSubMenuProcessosEstAdm
+{    
+    width:195px; 
+    height:165px; 
+    position:relative;
+    left:-2px;
+    top:2px;
+    float:left;
+    background-color:;     
+    /*border-left:1px solid Silver; 
+    border-bottom:1px solid Silver; 
+    border-right:1px solid Silver; */ 
+    background-image: url('../imagem/fundoProcessosSubMenu.jpg'); 
+    background-repeat:no-repeat;      
+}
+
+#liSubMenuProcessosEstAdmItemAreaResponsavel
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:165px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:10px 0 0 16px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuProcessosEstAdmItemAreaResponsavel:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   */
+}
+
+#liSubMenuProcessosEstAdmItemClassificacaoTematica
+{
+   /* background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:165px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 16px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuProcessosEstAdmItemClassificacaoTematica:hover
+{
+   /* background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat; */  
+}
+
+
+#liSubMenuProcessosEstAdmItemNivelTerritorial
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:165px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 16px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuProcessosEstAdmItemNivelTerritorial:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;*/  
+}
+
+
+#liSubMenuProcessosEstAdmItemPeriodicidade
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:165px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 16px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuProcessosEstAdmItemPeriodicidade:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;  */
+}
+
+#liSubMenuProcessosEstAdmItemTodosProcessos
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:165px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 16px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuProcessosEstAdmItemTodosProcessos:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat; */ 
+}
+
+
+
+
+
+
+/*quantitativo*/
+.Quantitativo
+{
+    width:135px;
+    height:25px;
+    float:right;
+    margin-top:25px;
+    margin-right:18px;
+    background-color:;
+    padding-right:7px;
+}
+
+#ulQuantitativo
+{
+    width:135px;
+    height:25px;
+    float:right;
+    /*background-image: url('../imagem/itemMenuAcervo.jpg');
+    background-repeat:no-repeat;*/
+    background-color:;
+}
+
+#ulQuantitativo:hover
+{   
+    /*background-image: url('../imagem/itemMenuAcervoHover.jpg');
+    background-repeat:no-repeat;*/
+    /*background-color:white;
+    border-left:1px solid Silver; 
+    border-top:1px solid Silver; 
+    border-right:1px solid Silver;*/
+
+}
+
+#liQuantitativo
+{
+    width:135px;
+    height:25px;    
+    float:right;
+    border:0px;
+    position:relative;
+    left:-1px;
+    top:-2px;
+    background-color:;
+}
+
+#aQuantitativo
+{
+    color:Black; 
+    cursor:pointer; 
+    text-decoration:none; 
+    text-align:center; 
+    font-size:10px;
+
+}
+
+#ulSubMenuQuantitativo
+{    
+    width:135px; 
+    height:165px; 
+    position:relative;
+    left:-6px;
+    top:3px;
+    float:left;
+    background-color:;     
+    /*border-left:1px solid Silver; 
+    border-bottom:1px solid Silver; 
+    border-right:1px solid Silver;   */   
+    background-image: url('../imagem/fundoQuantitativoSubMenu.jpg'); 
+    background-repeat:no-repeat;  
+}
+
+#liSubMenuQuantitativoItemPesquisas
+{
+   /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:105px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:10px 0 0 15px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuQuantitativoItemPesquisas:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;   */
+}
+
+#liSubMenuQuantitativoItemOcorrencias
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:115px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 15px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuQuantitativoItemOcorrencias:hover
+{
+   /* background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat; */  
+}
+
+
+#liSubMenuQuantitativoItemVariaveis
+{
+    /*background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:105px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 15px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuQuantitativoItemVariaveis:hover
+{
+    /*background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;*/  
+}
+
+
+#liSubMenuQuantitativoItemAgregados
+{
+   /* background-image: url('../imagem/itemMenuLinks.jpg'); 
+    background-repeat:no-repeat; */
+    width:105px;
+    height:25px; 
+    clear:both;
+    float:left;
+    margin:5px 0 0 15px; 
+    background-color:; 
+    text-align:left;  
+    color:Black;
+    border:none; 
+}
+
+#liSubMenuQuantitativoItemAgregados:hover
+{
+   /* background-image: url('../imagem/itemMenuLinksHover.jpg'); 
+    background-repeat:no-repeat;  */
+}
+
+/*TESTE LEONARDO 15/06/12 */
+
+
+
+/*MAPA SITE
+#mapaSiteEsquerdo
+{
+    float:left;
+    width:410px;
+    margin-top:30px;
+    background-color:;
+}
+
+.mapaSite_Icone
+{
+    float:left;
+    width:40px;
+    height:260px;
+    background-color:;
+    border-right: 1px solid #e4e4e4;
+
+}
+
+.mapaSite_Conteudo
+{
+    float:left;
+    width:340px;
+    height:200px;
+    background-color:;
+}
+
+.mapaSite_Conteudo_Titulo
+{
+    float:left;
+    width:330px;
+    height:30px;
+    background-color:#e4e4e4;    
+    padding: 10px 0 0 10px;
+}
+
+.mapaSite_Conteudo_Conteudo
+{
+    float:left;
+    width:320px;
+    height:180px;
+    background-color:Green;  
+    padding: 20px 0 0 20px;  
+    cursor:pointer;
+}
+
+
+#mapaSiteDireito
+{
+    float:left;
+    width:410px;
+    margin-left:60px;
+    margin-top:30px;
+    background-color:;
+}
+MAPA SITE*/
+
+
+.btnLogin
+{
+    background-image: url('../imagem/btnEntrar.png');
+    margin-top:4px;
+    cursor:pointer;
+    Width:60px;
+    Height:18px;
+}
+
+.btnLogin:hover
+{
+    /*background-image: url('../imagem/btnEntrarHover.png');*/
+}
+
+.btnLoginn
+{
+    font-size:10px;
+}
+
+#testeUm
+{
+    /* 18-02-13 
+
+    float:left; 
+    width:155px; 
+    height:19px; 
+    padding-top:6px; 
+    background-image: url('../imagem/AcervoMetadadosFundo.png'); 
+    margin:8px 0 0 0; 
+    cursor:pointer; 
+    text-align:center; 
+    font-size:12px; 
+    font-family:Verdana; 
+    color:white;
+    margin-left:50px;
+   */
+    
+    /* 18-02-13 */
+    
+    float:left; 
+    width:155px; 
+    height:27px; 
+    padding-top:13px;    
+    background-image: url('../imagem/AcervoMetadadosFundoMaior.png'); 
+    margin:0 0 0 0; 
+    cursor:pointer; 
+    text-align:center; 
+    font-size:12px; 
+    font-family:Verdana; 
+    color:white;
+   
+}
+
+#testeUm:hover
+{
+  
+  /*
+  background-image: url('../imagem/AcervoMetadadosFundoHover.png');
+  */
+    
+  /**/
+  background-image: url('../imagem/AcervoMetadadosFundoHoverMaior.png');
+  
+    
+}
+
+#testeTres:hover
+{
+    background-color:#3d4852;
+}
+
+
+.tituloItensMapaSite{
+    /*background:#e0e0e0;
+    background-image: url('../imagem/fundoTituloMapaSite.png');
+    width:970px; 
+    padding:18px 0 0 54px;*/
+    width:100%;
+    height:20px;
+    float:left;     
+    background-color:#e0e0e0;
+    padding-top:5px;
+}
+
+/*
+#tituloPagIni
+{
+    background-image: url('../imagem/TituloMapaSiteHome.png');
+}
+
+#tituloBusca
+{
+    background-image: url('../imagem/TituloMapaSiteBusca.png');
+}
+
+#tituloGlossario
+{
+    background-image: url('../imagem/TituloMapaSiteGlossario.png');
+}
+
+#tituloLinksUteis
+{
+    background-image: url('../imagem/TituloMapaSiteLinkUteis.png');
+}
+
+#tituloAcervoMetadados
+{
+    background-image: url('../imagem/TituloMapaSiteAcervoMetadados.png');
+}
+
+#tituloUltimasNoticias
+{
+    background-image: url('../imagem/TituloMapaSiteUltimasNoticias.png');
+}
+*/
+
+
+
+#pTextoMapaSite
+{
+    padding:25px 20px 20px 20px;
+}
+
+.itens_PagIniConteudo
+{
+    height:20px; 
+    float:left; 
+    margin:2px 0 0 0;
+    cursor:pointer;    
+    padding:5px 0 0 0;
+    width:100%;
+    border-bottom:1px dotted silver;
+}
+.itens_PagIniConteudo:hover
+{
+    text-decoration:none;
+    border-bottom:1px dotted silver; 
+    width:100%;
+    height:20px;    
+    font-weight:bolder;
+    font-size:13px;
+}
+
+.NaoHover:hover
+{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS - Jquery/Script para aparecer e esconder */
+.slidingDivv {
+    height:100px;
+    background-color: transparent;
+    padding:20px;
+    margin-top:10px;
+    display:none;
+}
+
+.slidingDivvv {
+    height:100px;
+    background-color: transparent;
+    padding:20px;
+    margin-top:10px;
+    display:none;
+}
+
+
+/* CSS - Jquery/Script para aparecer e esconder */
+
+
+
+.lblUsuario_Class
+{
+    text-align:right;
+    float:right;
+}
+
+
+/*
+#imgVerTodasNoticias
+{
+    float:left; 
+    width:27px; 
+    height:22px; 
+    background-image: url('../imagem/imgVerTodasNoticias.png');
+    cursor:pointer;
+}
+
+#imgVerTodasNoticias:hover
+{    
+    background-image: url('../imagem/imgVerTodasNoticiasHover.png');
+}
+*/
+
+
+
+
+
+.cssBusca
+{
+    background-image: url('../imagem/campoBusca.png');
+    background-repeat:no-repeat;
+    padding:8px;
+    width:384px;
+    height:19px;
+    float:left;
+}
+
+.cssBtnBusca
+{
+    background-image: url('../imagem/buscaTexto.png');
+    background-repeat:no-repeat;
+    width:60px;
+    height:35px;
+    cursor:pointer;
+    float:left;
+    color:#777777;
+    font-size:12px;
+    background-color:transparent;
+}
+
+.cssBtnBusca:hover
+{
+    color:Black;
+    background-image: url('../imagem/buscaTextoHover.png');
+    background-repeat:no-repeat;
+}
+
+
+.textoUsuario
+{
+    font-size:10px;
+    color:#666666;
+    width:110px;
+    height:15px;
+    background-image: url('../imagem/imgCampoTextoLogin.png');
+    margin-top:4px;
+    padding-top:3px;
+    padding-left:5px;
+
+}
+
+.textoSenha
+{
+    width:110px;
+    color:white;
+    text-align:right;
+    font-size:7px;
+    height:15px;
+    background-image: url('../imagem/fundoSenha.png');
+    margin-top:4px;
+    padding-top:3px;
+    padding-left:5px;
+}
+
+.cssTxtUsuario
+{
+    width:110px;
+    height:15px;
+    background-image: url('../imagem/imgCampoTextoLogin.png');
+    margin-top:4px;
+    padding-top:3px;
+    padding-left:5px;
+}
+
+#idiomas:hover
+{
+    background-image: url('../imagem/fundoEscolherIdiomaHover.png');
+}
+
+#idiomas
+{
+    float:left; width:30px; height:24px; background-image:url('../imagem/fundoEscolherIdioma.png'); cursor:pointer; text-align:center; margin-left:1px; margin-top:5px;3d4852;
+}
+
+#idiomass:hover
+{
+    background-image: url('../imagem/fundoEscolherIdiomaHover.png');
+}
+
+#idiomass
+{
+    float:left; width:30px; height:24px; background-image:url('../imagem/fundoEscolherIdioma.png'); cursor:pointer; text-align:center; margin-left:1px; margin-top:5px;
+}
+
+#idiomasss:hover
+{
+    background-image: url('../imagem/fundoEscolherIdiomaHover.png');
+}
+
+#idiomasss
+{
+    float:left; width:30px; height:24px; background-image:url('../imagem/fundoEscolherIdioma.png'); cursor:pointer; text-align:center; margin-left:1px; margin-top:5px;
+}
+
+
+.verTodasNoticias
+{
+    color:white;
+    font-weight:bolder;
+    font-size:9px;
+    background-image: url('../imagem/fundoMaisNoticias.png');
+    text-align:center;
+    padding-top:3px;    
+}
+.verTodasNoticias:hover
+{
+    color:#6090c2;
+    text-decoration:none;
+    font-size:9px;
+}
+
+.versaoImpressao
+{
+    background-image: url('../imagem/Icone_Relatorio.png');
+}
+
+.versaoImpressao:hover
+{
+    background-image: url('../imagem/Icone_Relatorio_Hover.png');
+}
+
+.iconeVarivel
+{
+    background-image: url('../imagem/IconeVariavel.png');
+
+}
+
+.iconeVarivel:hover
+{
+    background-image: url('../imagem/IconeVariavelHover.png');
+
+}
+
+.iconeOcorrencia
+{
+    background-image: url('../imagem/IconeOcorrencia.png');
+
+}
+
+.iconeOcorrencia:hover
+{
+    background-image: url('../imagem/IconeOcorrenciaHover.png');
+
+}
+
+.iconeOcorrenciaNovo:hover
+{
+    background-image: url('../imagem/IconeOcorrenciaHover.png');
+
+}
+
+.Exportar
+{
+    background-image: url('../imagem/IconeExportar.png');
+}
+
+.Exportar:hover
+{
+    background-image: url('../imagem/IconeExportarHover.png');
+}
+
+.GerarDDI
+{
+     background-image: url('../imagem/IconeGerarPadraoddi.png');
+}
+
+
+.GerarDDI:hover
+{
+     background-image: url('../imagem/IconeGerarPadraoddiHover.png');
+}
+
+
+.Classificacoes
+{
+    background-image: url('../imagem/IconeClassificacao.png');
+}
+
+.Classificacoes:hover
+{
+    background-image: url('../imagem/IconeClassificacaoHover.png');
+}
+
+.Documentos
+{
+    background-image: url('../imagem/IconeDocumento.png');
+}
+
+.Documentos:hover
+{
+    background-image: url('../imagem/IconeDocumentoHover.png');
+}
+
+.Agregado
+{
+    background-image: url('../imagem/IconeAgregado.png');
+}
+
+.Agregado:hover
+{
+    background-image: url('../imagem/IconeAgregadoHover.png');
+}
+
+.Categoria
+{
+    background-image: url('../imagem/IconeCategoria.png');
+}
+
+.Categoria:hover
+{
+    background-image: url('../imagem/IconeCategoriaHover.png');
+}
+
+.links
+{
+    background-image: url('../imagem/iconeLinks.png');
+}
+
+.links:hover
+{
+    background-image: url('../imagem/iconeLinksHover.png');
+}
+
+.acessoImg
+{
+    background-image: url('../imagem/iconeVerImg.png');
+}
+
+.acessoImg:hover
+{
+    background-image: url('../imagem/iconeVerImgHover.png');    
+}
+
+.txtPadding
+{
+    padding:5px;
+}
+
+
+.headerGrid
+{
+   /*background-image: url('../imagem/fundoGrid.png');*/ 
+   padding-left:5px;
+}
+
+.rowGrid
+{
+   /*background-image: url('../imagem/fundoGridd.png');*/
+   
+   padding:5px;
+   float:left;
+   min-height:15px;
+   width:1012px;
+   background-color:#eaedf0;
+   border:1px solid #d5dbe2;
+   margin-top:3px;
+   cursor:pointer;
+}
+
+.rowGrid:hover
+{
+    background-color:#E3EBF2;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.rowGridCategoria
+{
+   /*background-image: url('../imagem/fundoGridd.png');*/
+   padding:5px;
+   float:left;
+   width:1020px;
+   background-color:#eaedf0;
+   border:1px solid #d5dbe2;
+   margin-top:3px;
+}
+
+.rowGridCategoria:hover
+{
+    background-color:#E3EBF2;
+}
+
+
+
+.rowGridAgregado
+{
+   /*background-image: url('../imagem/fundoGridd.png');*/
+   float:left;
+   padding:5px;
+   width:1020px;
+   background-color:#eaedf0;
+   border:1px solid #d5dbe2;
+   margin-top:3px;
+   cursor:pointer;
+}
+
+.rowGridAgregado:hover
+{
+    background-color:#E3EBF2;
+    cursor:pointer;
+}
+
+
+.AlternatingGrid
+{
+    background-color:Silver;
+    background-position:bottom;
+    background-repeat:no-repeat;
+}
+
+.itemGrid
+{
+    padding:0 5px 0 0;
+}
+
+.hyperlinkGrid
+{
+    padding:0 5px 0 0;
+}
+
+
+.ctrOcorrenciaGrid
+{
+   /*padding-top:5px;
+   background-image: url('../imagem/fundoGridd.png');
+   background-position:bottom;
+   background-repeat:repeat-x;
+   background-position:bottom;
+   background-repeat:repeat-x;*/  
+   padding:5px;
+   float:left;
+   background-color:#eaedf0;
+   border:1px solid #d5dbe2;
+   margin-top:3px;
+   cursor:pointer;
+   width:98%;
+}
+
+.ctrOcorrenciaGrid:hover
+{
+    background-color:#E3EBF2;
+    cursor:pointer;
+}
+
+.hedaerOcorrenciaGrid
+{
+    /* background-image: url('../imagem/fundoGrid.png');*/
+    padding-left:5px;
+}
+
+.iconesEditarExcluir
+{
+    float:right;
+    width:20px;
+    height:20px;
+    margin-right:15px;
+}
+
+.iconesAceite
+{
+    height: 15px;
+    margin-right:15px;
+    margin-top: 5px;
+}
+
+.StyleGrid
+{
+    /*background-image: url('../imagem/imgFundoGridLista.png');   */
+    border:1px solid silver;
+}
+
+.StyleGridPesOcoDDI
+{
+    background-image: url('../imagem/imgFundoGridListaPesOcoDDI.png');   
+}
+
+.StyleBoudField
+{
+    padding-left:5px;
+    color:#666666;
+}
+
+.HeaderStyle_StyleBoudField_Esq
+{
+    border-left:1px solid silver;
+    border-top:1px solid silver;
+}
+
+.HeaderStyle_StyleBoudField
+{
+    border-left:1px solid silver;
+    border-top:1px solid silver;
+}
+
+.HeaderStyle_StyleBoudField_Dir
+{
+    border-right:1px solid silver;
+    border-left:1px solid silver;
+    border-top:1px solid silver;
+}
+
+.alter
+{
+    /*background-image: url('../imagem/imgFundoGridListaAlternate.png');*/
+    border:1px solid silver;
+}
+
+.alterPesOcoDDI
+{
+    background-image: url('../imagem/imgFundoGridListaAlterPesOcoDDI.png');
+}
+
+
+#linksGeo:hover
+{
+    background-color:Black;
+    cursor:pointer;
+}
+
+.lblGeo
+{
+    cursor:pointer;
+}
+
+.lblGeo:hover
+{
+    text-decoration:underline;
+}
+
+.vertodos
+{   
+    background-image: url('../imagem/fundoMaisNoticias.png');
+    padding-top:3px;
+    text-align:center;
+    color:white;
+    font-weight:bolder;
+    font-size:9px;
+}
+
+.vertodos:hover
+{
+    color:#6090c2;
+    text-decoration:none;
+    font-size:9px;
+}
+
+.styleGridBusca
+{
+    background-image: url('../imagem/imgFundoGridBusca.png');
+}
+
+.styleGridBuscaAlter
+{
+    background-image: url('../imagem/imgFundoGridBuscaAlter.png');
+}
+
+.itensHyperlinkGridBusca
+{
+    padding-left:5px;
+}
+
+.tituloHeaderGridBusca
+{
+    padding-bottom:5px;
+}
+
+.btnOK,
+.btAjuda,
+.btInicio
+{
+    width:30px;
+    height:26px;
+    cursor:pointer;
+    margin-top:0px;
+}
+
+.styleBuscaAvancada
+{
+    float:left;
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
+.GlossariolinksUteis
+{
+    cursor:pointer;
+    text-decoration:none;
+    margin-left:5px;
+}
+
+.NomeNumero
+{
+    font-size:10px;
+    color:Black;
+}
+
+
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+Css das grid do acervo(microdados e dicionários)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+*/
+
+.btnConsultaDicionario
+{
+    cursor:pointer;
+}
+
+.linkAcervoDicionarioMicrodado
+{
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.itemStyleCss
+{
+    border-bottom:1px solid Silver;
+}
+
+.headerStyleCss
+{
+    background-color:#006699;
+    font-size:11px;
+    color:White;
+    font-weight:bolder;
+    text-align:left;
+    height:20px;
+}
+
+._headerStyleCss
+{
+    background-color:#006699;
+    font-size:9px;
+    color:White;
+    font-weight:bolder;
+    text-align:left;
+    height:50px;
+}
+
+.controlStyleCss
+{
+    font-size:11px;
+    color:#666666;
+}
+
+._controlStyleCss
+{
+    font-size:11px;
+    color:#666666;
+    border-bottom:1px solid Silver;
+}
+
+.rowStyleCss
+{
+    background-color:#e3e3e3;
+    height:35px;
+    font-size:11px;
+    color:#666666;
+}
+
+.rowStyleCss:hover
+{
+    background-color:white;
+}
+
+.alternatingStyleCss
+{
+    background-color:#eeeded;
+    height:35px;
+    font-size:11px;
+    color:#666666;
+}
+
+.alternatingStyleCss:hover
+{
+    background-color:white;
+}
+
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+Css da grid do variaável
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/
+*/
+
+.itemStyleCssVariavel
+{
+    border-bottom:1px solid #d0dde8;
+    padding-right:40px;
+    padding-left:5px;
+}
+
+._headerStyleCssVariavel
+{
+    background-color:#d0dde8;
+    font-size:10px;
+    color:#274e76;
+    font-weight:bolder;
+    text-align:left;
+    height:40px;
+    padding-left:5px;
+}
+
+.controlStyleCssVariavel
+{
+    font-size:11px;
+    color:#666666;
+}
+
+._controlStyleCssVariavel
+{
+    font-size:11px;
+    color:#666666;
+    border-bottom:1px solid Silver;
+}
+
+.rowStyleCssVariavel
+{
+    background-color:#e3e3e3;
+    background-color:#e4ecf3;
+    min-height:45px;
+    font-size:11px;
+    color:#666666;
+}
+
+.rowStyleCssVariavel:hover
+{
+    background-color:white;
+}
+
+.alternatingStyleCssVariavel
+{
+    background-color:#eeeded;
+    background-color:#e4ecf3;
+    min-height:45px;
+    font-size:11px;
+    color:#666666;
+}
+
+.alternatingStyleCssVariavel:hover
+{
+    background-color:white;
+}
+
+
+/* css DIALOG e imagem do icone de ajuda(?) */
+#mask
+{
+position : absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:none;
+background:black;
+}
+    
+.AjudaTeste
+{
+    background-image: url('../imagem/iconeMenuAtualizacaoAjuda.png'); 
+    width:26px;
+    height:26px;
+    cursor:pointer;
+    border:none; 
+    /*float:right;*/   
+}
+  
+.AjudaTeste:hover
+{
+    background-image: url('../imagem/iconeMenuAtualizacaoAjudaBig.png'); 
+}  
+  /* css DIALOG e imagem do icone de ajuda(?) */
+  
+.leftPanelDthPesquisa
+{
+    float:right;
+    padding:0 0 0 15px;    
+}
+
+.rightPnlClassificacoes
+{
+    float:right;
+    padding:0 0 0 15px;
+}
+
+.linkCaminho:hover
+{
+    text-decoration: underline;
+}
+
+.linksDthPesquisa
+{
+    margin-top:8px;
+}
+
+.cursorHelp
+{
+    cursor:help;
+}
+
+.linksFloatRight
+{   
+    width:100%;
+    float:right;
+    margin-top:1px;
+    text-align:right;
+    padding:0 0 0 10px;
+}
+.linksRodapeGeografico
+{
+    float:left;
+}
+
+.accordionContent { 
+    color:#666666;
+    font-size:11px;  
+    padding-bottom:10px;
+}
+
+.accordionContent:hover { 
+    color:#666666;
+    font-size:11px;  
+    padding-bottom:10px;
+}
+
+.linkHoverUnderline:hover
+{
+    text-decoration:underline;
+}
+
+.textoJustificado
+{
+    text-align:justify;        
+}
+
+
+
+.gridVariaveisHistorico
+{
+    display: block; 
+    overflow: auto;    
+}
+
+.rowGridVar
+{
+    width: 994px;
+}
+
+.labelQualidade
+{
+    margin-top: 10px !important; 
+}
+
+.labelQualidadeDuasLinhas
+{
+    margin-top: 1px !important; 
+}

@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="LoadingPage.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <!-- Aguarde / Modal -->
+    <link href="Css/mensagens.css" rel="stylesheet" />
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/jquery-3.1.1.min.js"></script>
+
+    <script>
+        var teclaPressionada = false;
+
+        $(document).ready(function () {
+            $('#conteudoDefault :image').on("click", mostrarModalAguarde);
+
+            //Evitar que o modal aguarde apareça caso o click seja feito com alguma tecla estando pressioanda            
+            $(window).keydown(function (e) {
+                if (e.which >= 16 || e.which <= 18) {
+                    teclaPressionada = true;
+                }
+            });
+
+            $(window).keyup(function (e) {
+                if (e.which >= 16 || e.which <= 18) {
+                    teclaPressionada = false;
+                }
+
+            });
+
+        });
+
+        function mostrarModalAguarde(event) {
+            if (event == null || event.type != "click" || (event.which != 2 && !teclaPressionada)) {
+                mostrarFundoModal();
+                var divAguarde = $('#divAguarde');
+                divAguarde.show();
+            }
+
+            teclaPressionada = false;
+        }
+
+        function mostrarFundoModal() {
+            var modal = $('<div id="modalFundo"/>');
+            modal.addClass("modal");
+            $('body').append(modal);
+
+        }
+    </script>
+</head>
+
+<body>
+    <asp:ContentPlaceHolder ID="Main" runat="server">
+
+        <div id="conteudoDefault">
+            <asp:ContentPlaceHolder ID="pchConteudo" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+    </asp:ContentPlaceHolder>
+
+    <div class="aguarde" runat="server" id="divAguarde" style="display: none">
+        <h4>Aguarde</h4>
+        <p>
+            <span id="SpanAguarde" style="font-size: 14px; color: Black; float: left; padding: 8px 0;">Processando...</span>
+        </p>
+    </div>
+</body>
+</html>
