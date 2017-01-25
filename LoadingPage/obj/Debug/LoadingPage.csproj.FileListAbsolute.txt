@@ -18,3 +18,23 @@ E:\Loading Page\LoadingPage\LoadingPage\bin\Microsoft.CodeDom.Providers.DotNetCo
 E:\Loading Page\LoadingPage\LoadingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Loading Page\LoadingPage\LoadingPage\obj\Debug\LoadingPage.dll
 E:\Loading Page\LoadingPage\LoadingPage\obj\Debug\LoadingPage.pdb
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\csc.exe
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\vbc.exe
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\LoadingPage.dll.config
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\LoadingPage.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\LoadingPage.pdb
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\obj\Debug\LoadingPage.csprojResolveAssemblyReference.cache
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\obj\Debug\LoadingPage.dll
+C:\Users\Hebert\Documents\Visual Studio 2015\Projects\git\local\LoadingPage\LoadingPage\LoadingPage\obj\Debug\LoadingPage.pdb

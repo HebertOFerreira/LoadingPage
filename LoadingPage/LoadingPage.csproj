@@ -71,7 +71,6 @@
     <Content Include="JS\jquery-3.1.1.min.js" />
     <Content Include="JS\jquery.js" />
     <Content Include="Css\mensagens.css" />
-    <Content Include="Css\principalNovo.css" />
     <Content Include="packages.config" />
     <Content Include="SiteMaster.Master" />
     <None Include="Web.Debug.config">
